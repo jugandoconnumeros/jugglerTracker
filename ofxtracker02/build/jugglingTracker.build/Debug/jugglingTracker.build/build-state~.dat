@@ -1,0 +1,2154 @@
+TjugglingTracker
+v7
+r0
+t321099810.410437
+cCheck dependencies
+cProcessInfoPlistFile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/Info.plist openFrameworks-Info.plist
+cProcessPCH++ /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-asjyvoppafkxhjbzxuatxnwtqkot/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/main.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/testApp.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/testApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvColorImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvContourFinder.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvFloatImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvShortImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxThread.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxThread/src/ofxThread.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix3x3.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix4x4.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix4x4.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxQuaternion.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxQuaternion.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/cameras.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/cameras.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/core.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/core.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tilt.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/tilt.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/usb_libusb10.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/usb_libusb10.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinect.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinect.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectCalibration.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectCalibration.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectPlayer.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectRecorder.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectRecorder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxml.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxml.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlerror.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlparser.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxXmlSettings.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxDirList.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxDirList/src/ofxDirList.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/MacOS/jugglingTrackerDebug normal i386
+cPhaseScriptExecution "Run Script" /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+cPBXCp bin/jugglingTrackerDebug.app/Contents/Frameworks/GLUT.framework ../../../libs/glut/lib/osx/GLUT.framework
+cPBXCp bin/jugglingTrackerDebug.app/Contents/Resources/openFrameworks-Info.plist openFrameworks-Info.plist
+cTouch /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app
+
+N/Developer/usr/include/gcc/darwin/4.2/stdint.h
+c000000004C239434000000000000190C
+t1277400116
+s6412
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/emmintrin.h
+c000000004C238F15000000000000EA8F
+t1277398805
+s60047
+i<xmmintrin.h>
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004C238F150000000000001538
+t1277398805
+s5432
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004C238F150000000000000C7E
+t1277398805
+s3198
+i"syslimits.h"
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mm_malloc.h
+c000000004C238F15000000000000093D
+t1277398805
+s2365
+i<stdlib.h>
+i<errno.h>
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/mmintrin.h
+c000000004C238F150000000000009260
+t1277398805
+s37472
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004C238F1500000000000010DD
+t1277398805
+s4317
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004C238F150000000000000644
+t1277398805
+s1604
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004C238F150000000000003197
+t1277398805
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/syslimits.h
+c000000004C238D9C0000000000000155
+t1277398428
+s341
+
+N/Developer/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/xmmintrin.h
+c000000004C238F15000000000000BECA
+t1277398805
+s48842
+i<mmintrin.h>
+i<mm_malloc.h>
+i<emmintrin.h>
+
+N/System/Library/Frameworks/AGL.framework/AGL
+c000000004C8170FC0000000000043820
+t1283551484
+s276512
+
+N/System/Library/Frameworks/AppKit.framework/AppKit
+c000000004C8170C80000000002B48410
+t1283551432
+s45384720
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004C8170CB0000000000022140
+t1283551435
+s139584
+
+N/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004A12050C0000000000000475
+t1242694924
+s1141
+
+N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C8170D000000000004C9980
+t1283551440
+s5020032
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004C8170CE000000000000A5F0
+t1283551438
+s42480
+
+N/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004C23BF2D00000000000005FF
+t1277411117
+s1535
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004C8170CF000000000000A5E0
+t1283551439
+s42464
+
+N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004C8170CF00000000002181A0
+t1283551439
+s2195872
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004C8170CD000000000077DFF0
+t1283551437
+s7856112
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004C8170CF0000000000021710
+t1283551439
+s136976
+
+N/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004A11F0980000000000000400
+t1242689688
+s1024
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004C8170DB0000000000172A20
+t1283551451
+s1518112
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/gl.h
+c000000004BD2501F0000000000025B59
+t1272074271
+s154457
+
+N/System/Library/Frameworks/OpenGL.framework/Headers/glu.h
+c000000004BD2501F0000000000003F84
+t1272074271
+s16260
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004C8170E50000000000043310
+t1283551461
+s275216
+
+N/System/Library/Frameworks/QuickTime.framework/Headers/QuickTime.h
+c000000004C23C4D00000000000000659
+t1277412560
+s1625
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004C8171270000000000783950
+t1283551527
+s7878992
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxDirList/src/ofxDirList.h
+c000000004CE3AF720000000000002158
+t1289990002
+s8536
+i"ofMain.h"
+i<stdio.h>
+i<iostream>
+i<string.h>
+i<dirent.h>
+i<windows.h>
+i<tchar.h>
+i<string.h>
+i<assert.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/libs/libfreenect/freenect_internal.h
+c000000004D7211F20000000000000F70
+t1299321330
+s3952
+i<stdint.h>
+i"libfreenect.h"
+i"usb_libusb10.h"
+i<stdarg.h>
+i<stdio.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/libs/libfreenect/libfreenect.h
+c000000004D7211F20000000000003DFD
+t1299321330
+s15869
+i<stdint.h>
+i<libusb-1.0/libusb.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/libs/libfreenect/usb_libusb10.h
+c000000004D7211F20000000000000C20
+t1299321330
+s3104
+i<libusb-1.0/libusb.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/libs/libusb/osx/include/libusb-1.0/libusb.h
+c000000004D7211F2000000000000AFE5
+t1299321330
+s45029
+i<stdint.h>
+i<sys/types.h>
+i<time.h>
+i<limits.h>
+i<sys/time.h>
+i<windows.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/src/ofxBase3DVideo.h
+c000000004D7211F20000000000000165
+t1299321330
+s357
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/src/ofxKinect.h
+c000000004D7211F20000000000000FF6
+t1299321330
+s4086
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofxBase3DVideo.h"
+i"ofxThread.h"
+i<libusb.h>
+i"libfreenect.h"
+i"ofxKinectCalibration.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/src/ofxKinectCalibration.h
+c000000004D7211F200000000000008B7
+t1299321330
+s2231
+i"ofMain.h"
+i"ofxVectorMath.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/src/ofxKinectPlayer.h
+c000000004D7211F200000000000004F0
+t1299321330
+s1264
+i"ofMain.h"
+i"ofxBase3DVideo.h"
+i"ofxVectorMath.h"
+i"ofxKinectCalibration.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxKinect/src/ofxKinectRecorder.h
+c000000004D7211F2000000000000016B
+t1299321330
+s363
+i"ofMain.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/libs/opencv/include/cv.hpp
+c000000004CE3AF7200000000000041C8
+t1289990002
+s16840
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/libs/opencv/include/cvcompat.h
+c000000004CE3AF720000000000009ED1
+t1289990002
+s40657
+i<string.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/libs/opencv/include/cvtypes.h
+c000000004CE3AF7200000000000030D7
+t1289990002
+s12503
+i<assert.h>
+i<stdlib.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/libs/opencv/include/cvver.h
+c000000004CE3AF720000000000000942
+t1289990002
+s2370
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/libs/opencv/include/cxcore.h
+c000000004CE3AF720000000000012377
+t1289990002
+s74615
+i"ipl.h"
+i"ipl/ipl.h"
+i"cxtypes.h"
+i"cxerror.h"
+i"cvver.h"
+i"cxcore.hpp"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/libs/opencv/include/cxcore.hpp
+c000000004CE3AF720000000000002EA6
+t1289990002
+s11942
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/libs/opencv/include/cxerror.h
+c000000004CE3AF7200000000000021F4
+t1289990002
+s8692
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/libs/opencv/include/cxtypes.h
+c000000004CE3AF72000000000000CCF0
+t1289990002
+s52464
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i<float.h>
+i<emmintrin.h>
+i<fastmath.h>
+i<mathimf.h>
+i<math.h>
+i<ipl.h>
+i<ipl/ipl.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/src/ofxCvBlob.h
+c000000004CE3AF760000000000000544
+t1289990006
+s1348
+i"ofxCvConstants.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/src/ofxCvColorImage.h
+c000000004CE3AF76000000000000196D
+t1289990006
+s6509
+i"ofxCvImage.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/src/ofxCvConstants.h
+c000000004CE3AF7600000000000000CE
+t1289990006
+s206
+i"cv.h"
+i<vector>
+i"ofMain.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/src/ofxCvContourFinder.h
+c000000004CE3AF7600000000000007DB
+t1289990006
+s2011
+i"ofxCvConstants.h"
+i"ofxCvBlob.h"
+i"ofxCvGrayscaleImage.h"
+i<algorithm>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/src/ofxCvFloatImage.h
+c000000004CE3AF760000000000001D2E
+t1289990006
+s7470
+i"ofxCvImage.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/src/ofxCvGrayscaleImage.h
+c000000004CE3AF760000000000001B79
+t1289990006
+s7033
+i"ofxCvImage.h"
+i"ofxCvBlob.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/src/ofxCvImage.h
+c000000004CE3AF7600000000000018CC
+t1289990006
+s6348
+i"ofxCvConstants.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxOpenCv/src/ofxCvShortImage.h
+c000000004CE3AF7600000000000016F1
+t1289990006
+s5873
+i"ofxCvImage.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxThread/src/ofxThread.h
+c000000004CE3AF76000000000000054D
+t1289990006
+s1357
+i"ofConstants.h"
+i<process.h>
+i<pthread.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxVectorMath/src/ofxMatrix3x3.h
+c000000004CE3AF760000000000000A1D
+t1289990006
+s2589
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxVectorMath/src/ofxMatrix4x4.h
+c000000004CE3AF7600000000000064CC
+t1289990006
+s25804
+i"ofxVec3f.h"
+i"ofxVec4f.h"
+i"ofxQuaternion.h"
+i<cmath>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxVectorMath/src/ofxQuaternion.h
+c000000004CE3AF76000000000000242E
+t1289990006
+s9262
+i"ofxVec3f.h"
+i"ofxVec4f.h"
+i<cmath>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxVectorMath/src/ofxVec2f.h
+c000000004CE3AF760000000000004100
+t1289990006
+s16640
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxVectorMath/src/ofxVec3f.h
+c000000004CE3AF760000000000006487
+t1289990006
+s25735
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxVectorMath/src/ofxVec4f.h
+c000000004CE3AF760000000000002DE5
+t1289990006
+s11749
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxXmlSettings/libs/tinyxml.h
+c000000004CE3AF76000000000000FD05
+t1289990006
+s64773
+i<ctype.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<string>
+i<iostream>
+i<sstream>
+i"tinystr.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/addons/ofxXmlSettings/src/ofxXmlSettings.h
+c000000004CE3AF760000000000001B46
+t1289990006
+s6982
+i"ofMain.h"
+i<string.h>
+i"tinyxml.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxDirList/src/ofxDirList.cpp
+c000000004CE3AF720000000000000F61
+t1289990002
+s3937
+i"ofxDirList.h"
+i<algorithm>
+i<string>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/cameras.c
+c000000004D7211F20000000000006035
+t1299321330
+s24629
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i"freenect_internal.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/core.c
+c000000004D7211F20000000000000F92
+t1299321330
+s3986
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<stdarg.h>
+i<unistd.h>
+i"freenect_internal.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/libfreenect.h
+c000000004D7211F20000000000003DFD
+t1299321330
+s15869
+i<stdint.h>
+i<libusb-1.0/libusb.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/tilt.c
+c000000004D7211F20000000000000D9C
+t1299321330
+s3484
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<unistd.h>
+i<math.h>
+i"freenect_internal.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/usb_libusb10.c
+c000000004D7211F20000000000001DDD
+t1299321330
+s7645
+i<stdio.h>
+i<stdbool.h>
+i<stdlib.h>
+i<string.h>
+i<libusb-1.0/libusb.h>
+i"freenect_internal.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0/libusb.h
+c000000004D7211F2000000000000AFE5
+t1299321330
+s45029
+i<stdint.h>
+i<sys/types.h>
+i<time.h>
+i<limits.h>
+i<sys/time.h>
+i<windows.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libusb/osx/libs/usb-1.0.a
+c000000004D7211F2000000000002DB10
+t1299321330
+s187152
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinect.cpp
+c000000004D7211F200000000000030FF
+t1299321330
+s12543
+i"ofxKinect.h"
+i"ofMain.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinect.h
+c000000004D7211F20000000000000FF6
+t1299321330
+s4086
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofxBase3DVideo.h"
+i"ofxThread.h"
+i<libusb.h>
+i"libfreenect.h"
+i"ofxKinectCalibration.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectCalibration.cpp
+c000000004D7211F20000000000001B14
+t1299321330
+s6932
+i"ofxKinectCalibration.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectPlayer.cpp
+c000000004D7211F20000000000000B59
+t1299321330
+s2905
+i"ofxKinectPlayer.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectRecorder.cpp
+c000000004D7211F2000000000000028F
+t1299321330
+s655
+i"ofxKinectRecorder.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/libs/opencv/include/cv.h
+c000000004CE3AF72000000000000FF43
+t1289990002
+s65347
+i<chdl.h>
+i"cxcore.h"
+i"cvtypes.h"
+i"cv.hpp"
+i"cvcompat.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/libs/opencv/lib/osx/openCV.a
+c000000004CE3AF74000000000163A260
+t1289990004
+s23306848
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp
+c000000004CE3AF7600000000000038B6
+t1289990006
+s14518
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp
+c000000004CE3AF760000000000001A17
+t1289990006
+s6679
+i"ofxCvContourFinder.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp
+c000000004CE3AF760000000000004B0D
+t1289990006
+s19213
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp
+c000000004CE3AF760000000000003491
+t1289990006
+s13457
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvImage.cpp
+c000000004CE3AF760000000000005438
+t1289990006
+s21560
+i"ofxCvImage.h"
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvBlob.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp
+c000000004CE3AF7600000000000030A9
+t1289990006
+s12457
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxOpenCv.h
+c000000004CE3AF76000000000000017F
+t1289990006
+s383
+i"ofxCvConstants.h"
+i"ofxCvImage.h"
+i"ofxCvGrayscaleImage.h"
+i"ofxCvColorImage.h"
+i"ofxCvFloatImage.h"
+i"ofxCvShortImage.h"
+i"ofxCvContourFinder.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxThread/src/ofxThread.cpp
+c000000004CE3AF760000000000000F17
+t1289990006
+s3863
+i"ofxThread.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxThread/src/ofxThread.h
+c000000004CE3AF76000000000000054D
+t1289990006
+s1357
+i"ofConstants.h"
+i<process.h>
+i<pthread.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp
+c000000004CE3AF760000000000001593
+t1289990006
+s5523
+i"ofxMatrix3x3.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix4x4.cpp
+c000000004CE3AF76000000000000A582
+t1289990006
+s42370
+i"ofxMatrix4x4.h"
+i<limits>
+i<stdlib.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxQuaternion.cpp
+c000000004CE3AF76000000000000219E
+t1289990006
+s8606
+i<stdio.h>
+i"ofxQuaternion.h"
+i"ofxMatrix4x4.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxVectorMath.h
+c000000004CE3AF760000000000000125
+t1289990006
+s293
+i"ofxVec2f.h"
+i"ofxVec3f.h"
+i"ofxVec4f.h"
+i"ofxMatrix3x3.h"
+i"ofxMatrix4x4.h"
+i"ofxQuaternion.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxml.cpp
+c000000004CE3AF760000000000009064
+t1289990006
+s36964
+i<ctype.h>
+i<sstream>
+i<iostream>
+i"tinyxml.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp
+c000000004CE3AF760000000000000712
+t1289990006
+s1810
+i"tinyxml.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp
+c000000004CE3AF760000000000009B7B
+t1289990006
+s39803
+i<ctype.h>
+i<stddef.h>
+i"tinyxml.h"
+i<windows.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp
+c000000004CE3AF760000000000004D2C
+t1289990006
+s19756
+i"ofxXmlSettings.h"
+i<vector>
+i<string>
+i<iostream>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/FreeImage/lib/osx/freeimage.a
+c000000004CE3AF780000000000AA64B0
+t1289990008
+s11166896
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/GLee/include/GLee.h
+c000000004CE3AF780000000000090A87
+t1289990008
+s592519
+i<windows.h>
+i<GL/gl.h>
+i<OpenGL/gl.h>
+i<GL/gl.h>
+i<GL/glx.h>
+i<stddef.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/GLee/lib/osx/GLee.a
+c000000004CE3AF7800000000000C88C8
+t1289990008
+s821448
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/fmodex/include/fmod.h
+c000000004CE3AF780000000000028E68
+t1289990008
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/fmodex/include/fmod_errors.h
+c000000004CE3AF780000000000003408
+t1289990008
+s13320
+i"fmod.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/fmodex/lib/osx/libfmodex.dylib
+c000000004CE3AF7800000000001DD8CC
+t1289990008
+s1956044
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freeimage/include/FreeImage.h
+c000000004CE3AF78000000000000CC1B
+t1289990008
+s52251
+i<wchar.h>
+i<inttypes.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freetype/lib/osx/freetype.a
+c000000004CE3AF7800000000004D82C8
+t1289990008
+s5079752
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx/GLUT.framework
+c000000004CE3AF7800000000000000CC
+t1289990008
+s204
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx/GLUT.framework/GLUT
+c000000004CE3AF78000000000011A218
+t1289990008
+s1155608
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/CppUnit.a
+c000000004CE3AF7A000000000003ABB0
+t1289990010
+s240560
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/PocoFoundation.a
+c000000004CE3AF7A00000000005A62E8
+t1289990010
+s5923560
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/PocoNet.a
+c000000004CE3AF7A0000000000378278
+t1289990010
+s3637880
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/PocoUtil.a
+c000000004CE3AF7A00000000000FFB80
+t1289990010
+s1047424
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/PocoXML.a
+c000000004CE3AF7A0000000000239BC0
+t1289990010
+s2333632
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/rtAudio/lib/osx/rtAudio.a
+c000000004CE3AF7E00000000000BC8E8
+t1289990014
+s772328
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app
+t1299407010
+s102
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/Info.plist
+t1299406999
+s624
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/MacOS/jugglingTrackerDebug
+t1299407010
+s1680844
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/PkgInfo
+t1299406999
+s8
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/jugglingTrackerDebug.app/Contents/Frameworks/GLUT.framework
+t1299407010
+s204
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/jugglingTrackerDebug.app/Contents/Resources/openFrameworks-Info.plist
+t1299407010
+s631
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/cameras.o
+t1299407005
+s28356
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/core.o
+t1299407005
+s13644
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/jugglingTrackerDebug.LinkFileList
+c000000004D73609700000000000010AC
+t1299406999
+s4268
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/main.o
+t1299407001
+s435224
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvColorImage.o
+t1299407002
+s400476
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvContourFinder.o
+t1299407002
+s552588
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvFloatImage.o
+t1299407003
+s406044
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvGrayscaleImage.o
+t1299407003
+s398268
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvImage.o
+t1299407003
+s430056
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvShortImage.o
+t1299407003
+s395620
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxDirList.o
+t1299407008
+s402312
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinect.o
+t1299407006
+s442188
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectCalibration.o
+t1299407006
+s402312
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectPlayer.o
+t1299407006
+s413148
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectRecorder.o
+t1299407006
+s343700
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix3x3.o
+t1299407003
+s19808
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix4x4.o
+t1299407004
+s162524
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxQuaternion.o
+t1299407004
+s98408
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxThread.o
+t1299407004
+s55728
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxXmlSettings.o
+t1299407008
+s554416
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/testApp.o
+t1299407002
+s468300
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tilt.o
+t1299407005
+s10936
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxml.o
+t1299407007
+s252832
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlerror.o
+t1299407007
+s72436
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlparser.o
+t1299407007
+s164172
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/usb_libusb10.o
+t1299407005
+s16632
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+c000000004D7360970000000000000113
+t1299406999
+s275
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/openFrameworks-Info.plist
+c000000004D7211F20000000000000277
+t1299321330
+s631
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/main.cpp
+c000000004D7211F200000000000000A4
+t1299321330
+s164
+i"testApp.h"
+i"ofAppGlutWindow.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/testApp.cpp
+c000000004D7360950000000000002BD4
+t1299406997
+s11220
+i"testApp.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/testApp.h
+c000000004D7276A600000000000005C2
+t1299347110
+s1474
+i"ofMain.h"
+i"ofxOpenCv.h"
+i"ofxKinect.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/fmodex/include/fmod.h
+c000000004CE3AF780000000000028E68
+t1289990008
+s167528
+i"fmod_codec.h"
+i"fmod_dsp.h"
+i"fmod_memoryinfo.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/fmodex/include/fmod_codec.h
+c000000004CE3AF78000000000000334A
+t1289990008
+s13130
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/fmodex/include/fmod_dsp.h
+c000000004CE3AF78000000000000892F
+t1289990008
+s35119
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/fmodex/include/fmod_memoryinfo.h
+c000000004CE3AF780000000000003C95
+t1289990008
+s15509
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/glut/lib/osx/GLUT.framework/Headers/glut.h
+c000000004CE3AF78000000000000578C
+t1289990008
+s22412
+i<windows.h>
+i<AvailabilityMacros.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GL/gl.h>
+i<GL/glu.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/app/ofAppBaseWindow.h
+c000000004CE3AF780000000000000446
+t1289990008
+s1094
+i"ofTypes.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/app/ofAppGlutWindow.h
+c000000004CE3AF78000000000000066B
+t1289990008
+s1643
+i"ofConstants.h"
+i"ofAppBaseWindow.h"
+i"glut.h"
+i<GLUT/glut.h>
+i<GL/glut.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/app/ofAppRunner.h
+c000000004CE3AF78000000000000050D
+t1289990008
+s1293
+i"ofMain.h"
+i"ofBaseApp.h"
+i"ofAppBaseWindow.h"
+i"ofAppGlutWindow.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/app/ofBaseApp.h
+c000000004CE3AF780000000000000376
+t1289990008
+s886
+i"ofTypes.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/communication/ofArduino.h
+c000000004CE3AF780000000000003D3C
+t1289990008
+s15676
+i<list>
+i<vector>
+i<string>
+i<iostream>
+i"ofEvents.h"
+i"ofSerial.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/communication/ofSerial.h
+c000000004CE3AF780000000000000D2E
+t1289990008
+s3374
+i"ofConstants.h"
+i<termios.h>
+i<sys/ioctl.h>
+i<getopt.h>
+i<dirent.h>
+i<winbase.h>
+i<tchar.h>
+i<iostream>
+i<string.h>
+i<setupapi.h>
+i<regstr.h>
+i<winioctl.h>
+i<initguid.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<fcntl.h>
+i<errno.h>
+i<ctype.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/events/ofEventUtils.h
+c000000004CE3AF780000000000000AFA
+t1289990008
+s2810
+i"ofConstants.h"
+i"Poco/FIFOEvent.h"
+i"Poco/Delegate.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/events/ofEvents.h
+c000000004CE3AF78000000000000126C
+t1289990008
+s4716
+i"ofConstants.h"
+i"ofUtils.h"
+i"ofEventUtils.h"
+i"ofxEventUtils.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/graphics/ofGraphics.h
+c000000004CE3AF780000000000000D63
+t1289990008
+s3427
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/graphics/ofImage.h
+c000000004CE3AF780000000000000D09
+t1289990008
+s3337
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofAppRunner.h"
+i"FreeImage.h"
+i"ofUtils.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/graphics/ofTexture.h
+c000000004CE3AF780000000000000C4B
+t1289990008
+s3147
+i"ofConstants.h"
+i"ofGraphics.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/graphics/ofTrueTypeFont.h
+c000000004CE3AF78000000000000087A
+t1289990008
+s2170
+i"ofConstants.h"
+i"ofGraphics.h"
+i"ofUtils.h"
+i"ofTypes.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/ofMain.h
+c000000004CE3AF780000000000000347
+t1289990008
+s839
+i"ofConstants.h"
+i"ofMath.h"
+i"ofUtils.h"
+i"ofTypes.h"
+i"ofSerial.h"
+i"ofArduino.h"
+i"ofTexture.h"
+i"ofTrueTypeFont.h"
+i"ofGraphics.h"
+i"ofImage.h"
+i"ofBaseApp.h"
+i"ofAppRunner.h"
+i"ofSoundStream.h"
+i"ofSoundPlayer.h"
+i"ofVideoGrabber.h"
+i"ofVideoPlayer.h"
+i"ofEvents.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/sound/ofSoundPlayer.h
+c000000004CE3AF7800000000000006C3
+t1289990008
+s1731
+i"ofConstants.h"
+i"fmod.h"
+i"fmod_errors.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/sound/ofSoundStream.h
+c000000004CE3AF780000000000000254
+t1289990008
+s596
+i"ofConstants.h"
+i"ofBaseApp.h"
+i"ofEvents.h"
+i"ofMath.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/utils/ofConstants.h
+c000000004CE3AF780000000000002ACC
+t1289990008
+s10956
+i<TargetConditionals.h>
+i<windows.h>
+i"GLee.h"
+i"glu.h"
+i<unistd.h>
+i"GLee.h"
+i<OpenGL/glu.h>
+i<ApplicationServices/ApplicationServices.h>
+i<unistd.h>
+i"GLee.h"
+i<GL/glu.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<cstdlib>
+i<cstdio>
+i<cstdarg>
+i<cmath>
+i<ctime>
+i<cstdlib>
+i<string>
+i<iostream>
+i<vector>
+i<cstring>
+i<sstream>
+i<iomanip>
+i<fstream>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/utils/ofMath.h
+c000000004CE3AF780000000000000A66
+t1289990008
+s2662
+i"ofConstants.h"
+i"ofTypes.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/utils/ofTypes.h
+c000000004CE3AF780000000000001D5F
+t1289990008
+s7519
+i"ofConstants.h"
+i"ofUtils.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/utils/ofUtils.h
+c000000004CE3AF7800000000000005A4
+t1289990008
+s1444
+i"ofConstants.h"
+i<shellapi.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/video/ofGstUtils.h
+c000000004CE3AF780000000000000B55
+t1289990008
+s2901
+i<gst/gst.h>
+i<pthread.h>
+i"ofConstants.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/video/ofQtUtils.h
+c000000004CE3AF7800000000000006CF
+t1289990008
+s1743
+i"ofConstants.h"
+i"ofGraphics.h"
+i<QuickTime/QuickTime.h>
+i<CoreServices/CoreServices.h>
+i<ApplicationServices/ApplicationServices.h>
+i<QTML.h>
+i<FixMath.h>
+i<QuickTimeComponents.h>
+i<TextUtils.h>
+i<MediaHandlers.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/video/ofVideoGrabber.h
+c000000004CE3AF780000000000000C9C
+t1289990008
+s3228
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGraphics.h"
+i"ofTypes.h"
+i"ofQtUtils.h"
+i"videoInput.h"
+i"ofUCUtils.h"
+i"ofGstUtils.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworks/video/ofVideoPlayer.h
+c000000004CE3AF780000000000000C33
+t1289990008
+s3123
+i"ofConstants.h"
+i"ofTexture.h"
+i"ofGstUtils.h"
+i"ofQtUtils.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
+c000000004D7217060000000000610B78
+t1299322630
+s6359928
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/AbstractDelegate.h
+c000000004CE3AF780000000000000B2E
+t1289990008
+s2862
+i"Poco/Foundation.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/AbstractEvent.h
+c000000004CE3AF780000000000002C6A
+t1289990008
+s11370
+i"Poco/Foundation.h"
+i"Poco/SingletonHolder.h"
+i"Poco/SharedPtr.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveMethod.h"
+i"Poco/Mutex.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/ActiveMethod.h
+c000000004CE3AF780000000000001C64
+t1289990008
+s7268
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/ActiveRunnable.h"
+i"Poco/ActiveStarter.h"
+i"Poco/AutoPtr.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/ActiveResult.h
+c000000004CE3AF780000000000002E66
+t1289990008
+s11878
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/ActiveRunnable.h
+c000000004CE3AF780000000000001785
+t1289990008
+s6021
+i"Poco/Foundation.h"
+i"Poco/ActiveResult.h"
+i"Poco/Runnable.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i"Poco/Exception.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/ActiveStarter.h
+c000000004CE3AF780000000000000927
+t1289990008
+s2343
+i"Poco/Foundation.h"
+i"Poco/ThreadPool.h"
+i"Poco/ActiveRunnable.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/AutoPtr.h
+c000000004CE3AF780000000000001E0C
+t1289990008
+s7692
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<algorithm>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Bugcheck.h
+c000000004CE3AF7800000000000012FE
+t1289990008
+s4862
+i"Poco/Foundation.h"
+i<string>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/CompareFunctions.h
+c000000004CE3AF7800000000000007EC
+t1289990008
+s2028
+i"Poco/Foundation.h"
+i<functional>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Config.h
+c000000004CE3AF7800000000000008B5
+t1289990008
+s2229
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Delegate.h
+c000000004CE3AF780000000000001802
+t1289990008
+s6146
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/FunctionDelegate.h"
+i"Poco/Expire.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Event.h
+c000000004CE3AF780000000000000E21
+t1289990008
+s3617
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Event_WIN32.h"
+i"Poco/Event_POSIX.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Event_POSIX.h
+c000000004CE3AF780000000000000A91
+t1289990008
+s2705
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Event_WIN32.h
+c000000004CE3AF780000000000000947
+t1289990008
+s2375
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Exception.h
+c000000004CE3AF7800000000000026AC
+t1289990008
+s9900
+i"Poco/Foundation.h"
+i<stdexcept>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Expire.h
+c000000004CE3AF780000000000000CF1
+t1289990008
+s3313
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/Timestamp.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/FIFOEvent.h
+c000000004CE3AF780000000000000AD4
+t1289990008
+s2772
+i"Poco/AbstractEvent.h"
+i"Poco/FIFOStrategy.h"
+i"Poco/AbstractDelegate.h"
+i"Poco/CompareFunctions.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/FIFOStrategy.h
+c000000004CE3AF7800000000000010F3
+t1289990008
+s4339
+i"Poco/NotificationStrategy.h"
+i<map>
+i<list>
+i<memory>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Foundation.h
+c000000004CE3AF780000000000001023
+t1289990008
+s4131
+i"Poco/Config.h"
+i"Poco/Platform.h"
+i"Poco/Platform_WIN32.h"
+i"Poco/Platform_VMS.h"
+i"Poco/Platform_POSIX.h"
+i"Poco/Bugcheck.h"
+i"Poco/Types.h"
+i<string>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/FunctionDelegate.h
+c000000004CE3AF7800000000000013CA
+t1289990008
+s5066
+i"Poco/Foundation.h"
+i"Poco/AbstractDelegate.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Mutex.h
+c000000004CE3AF780000000000001A61
+t1289990008
+s6753
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/ScopedLock.h"
+i"Poco/Mutex_WIN32.h"
+i"Poco/Mutex_POSIX.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Mutex_POSIX.h
+c000000004CE3AF780000000000000AC3
+t1289990008
+s2755
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i<pthread.h>
+i<errno.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Mutex_WIN32.h
+c000000004CE3AF780000000000000A07
+t1289990008
+s2567
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/UnWindows.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/NotificationStrategy.h
+c000000004CE3AF780000000000000A37
+t1289990008
+s2615
+i"Poco/Foundation.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Platform.h
+c000000004CE3AF780000000000001A3A
+t1289990008
+s6714
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Platform_POSIX.h
+c000000004CE3AF780000000000000843
+t1289990008
+s2115
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Platform_VMS.h
+c000000004CE3AF780000000000000BAA
+t1289990008
+s2986
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Platform_WIN32.h
+c000000004CE3AF780000000000000D4D
+t1289990008
+s3405
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/RefCountedObject.h
+c000000004CE3AF780000000000000B10
+t1289990008
+s2832
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Runnable.h
+c000000004CE3AF780000000000000861
+t1289990008
+s2145
+i"Poco/Foundation.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/ScopedLock.h
+c000000004CE3AF7800000000000008EB
+t1289990008
+s2283
+i"Poco/Foundation.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/SharedPtr.h
+c000000004CE3AF7800000000000021DE
+t1289990008
+s8670
+i"Poco/Foundation.h"
+i"Poco/Exception.h"
+i"Poco/Mutex.h"
+i<algorithm>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/SignalHandler.h
+c000000004CE3AF7800000000000011EB
+t1289990008
+s4587
+i"Poco/Foundation.h"
+i<vector>
+i<setjmp.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/SingletonHolder.h
+c000000004CE3AF780000000000000A64
+t1289990008
+s2660
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Thread.h
+c000000004CE3AF780000000000001C3A
+t1289990008
+s7226
+i"Poco/Foundation.h"
+i"Poco/Mutex.h"
+i"Poco/Thread_WIN32.h"
+i"Poco/Thread_POSIX.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/ThreadPool.h
+c000000004CE3AF780000000000001849
+t1289990008
+s6217
+i"Poco/Foundation.h"
+i"Poco/Thread.h"
+i"Poco/Mutex.h"
+i<vector>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Thread_POSIX.h
+c000000004CE3AF7800000000000012A8
+t1289990008
+s4776
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/SignalHandler.h"
+i"Poco/Event.h"
+i"Poco/RefCountedObject.h"
+i"Poco/AutoPtr.h"
+i<pthread.h>
+i<sys/select.h>
+i<errno.h>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Thread_WIN32.h
+c000000004CE3AF78000000000000106C
+t1289990008
+s4204
+i"Poco/Foundation.h"
+i"Poco/Runnable.h"
+i"Poco/UnWindows.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Timestamp.h
+c000000004CE3AF7A00000000000019A7
+t1289990010
+s6567
+i"Poco/Foundation.h"
+i<ctime>
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/Types.h
+c000000004CE3AF7A0000000000001910
+t1289990010
+s6416
+i"Poco/Foundation.h"
+
+N/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/poco/include/Poco/UnWindows.h
+c000000004CE3AF7A0000000000000FD1
+t1289990010
+s4049
+i<windows.h>
+
+N/usr/include/AvailabilityMacros.h
+c000000004A11A9B30000000000006724
+t1242671539
+s26404
+
+N/usr/include/TargetConditionals.h
+c000000004A11A9B300000000000031E9
+t1242671539
+s12777
+
+N/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/usr/include/ctype.h
+c000000004BBD2CE90000000000002C18
+t1270689001
+s11288
+
+N/usr/include/dirent.h
+c000000004BBD2CE900000000000016D3
+t1270689001
+s5843
+
+N/usr/include/errno.h
+c000000004BBD2CE900000000000003EB
+t1270689001
+s1003
+
+N/usr/include/fcntl.h
+c000000004BBD2CE900000000000003EA
+t1270689001
+s1002
+
+N/usr/include/getopt.h
+c000000004BBD2CE90000000000000CBC
+t1270689001
+s3260
+
+N/usr/include/inttypes.h
+c000000004BBD2CE900000000000027D1
+t1270689001
+s10193
+
+N/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/usr/include/pthread.h
+c000000004BBD2CE900000000000038F0
+t1270689001
+s14576
+
+N/usr/include/setjmp.h
+c000000004BBD2CE90000000000000438
+t1270689001
+s1080
+
+N/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/usr/include/sys/_types.h
+c000000004C2399490000000000001845
+t1277401417
+s6213
+
+N/usr/include/sys/ioctl.h
+c000000004C239946000000000000116C
+t1277401414
+s4460
+
+N/usr/include/sys/select.h
+c000000004C23994700000000000016A2
+t1277401415
+s5794
+
+N/usr/include/sys/time.h
+c000000004C2399480000000000001E17
+t1277401416
+s7703
+
+N/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/usr/include/termios.h
+c000000004BBD2CE900000000000004D4
+t1270689001
+s1236
+
+N/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/usr/include/unistd.h
+c000000004BBD2CE9000000000000563E
+t1270689001
+s22078
+
+N/usr/include/wchar.h
+c000000004BBD2CE900000000000025DA
+t1270689001
+s9690
+
+N/var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-asjyvoppafkxhjbzxuatxnwtqkot/Carbon.h.gch
+t1299341636
+s47564688
+
+N/var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h.gch
+t1299341637
+s53737264
+
+NopenFrameworks-Info.plist
+c000000004D7211F20000000000000277
+t1299321330
+s631
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321099799#321099799#0(110"[WARN]Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.1(22@103"Warning: The Copy Files build phase contains this target's Info.plist file 'openFrameworks-Info.plist'.321099799#18446744073709551615#0#0(1@0"0(0#1#0"31244212048494624#0"0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/cameras.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/cameras.c normal i386 c com.apple.compilers.gcc.4_2
+s321099803.864731
+e321099805.260517
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/cameras.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/cameras.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@140"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/cameras.c321099803#321099805#0(0"0(0#0#132"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/cameras.c8618237728#2221"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-asjyvoppafkxhjbzxuatxnwtqkot/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/cameras.c -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/cameras.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/core.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/core.c normal i386 c com.apple.compilers.gcc.4_2
+s321099804.061051
+e321099805.275007
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/core.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/core.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@137"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/core.c321099804#321099805#0(0"0(0#0#129"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/core.c8619423008#2215"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-asjyvoppafkxhjbzxuatxnwtqkot/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/core.c -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/core.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/main.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099799.853237
+e321099801.830423
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/main.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@100"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/main.cpp321099799#321099801#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#92"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/main.cpp8619134400#2230"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/main.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/main.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvColorImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099800.384849
+e321099802.019624
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvColorImage.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@137"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp321099800#321099802#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#129"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp8088879915588612096#2278"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvColorImage.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvColorImage.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvContourFinder.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099800.385681
+e321099802.245366
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvContourFinder.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@140"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp321099800#321099802#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#132"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp8603718016#2284"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvContourFinder.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvContourFinder.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvFloatImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099801.830625
+e321099803.449938
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvFloatImage.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@137"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp321099801#321099803#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#129"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp8599874176#2278"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvFloatImage.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvFloatImage.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvGrayscaleImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099802.019758
+e321099803.613326
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvGrayscaleImage.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@141"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp321099802#321099803#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#133"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp8608252576#2286"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvGrayscaleImage.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvGrayscaleImage.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099802.212571
+e321099803.864611
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvImage.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@132"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvImage.cpp321099802#321099803#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#124"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvImage.cpp8619365248#2268"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvImage.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvImage.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvShortImage.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099802.245501
+e321099803.807393
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvShortImage.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@137"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp321099802#321099803#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#129"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp8600910624#2278"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/src/ofxCvShortImage.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxCvShortImage.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxDirList.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxDirList/src/ofxDirList.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099807.306173
+e321099808.318921
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxDirList.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxDirList/src/ofxDirList.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@133"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxDirList/src/ofxDirList.cpp321099807#321099808#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#125"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxDirList/src/ofxDirList.cpp8608114432#2269"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxDirList/src/ofxDirList.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxDirList.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinect.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinect.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099805.255911
+e321099806.938427
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinect.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinect.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@131"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinect.cpp321099805#321099806#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#123"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinect.cpp8607096512#2266"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinect.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinect.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectCalibration.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectCalibration.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099805.259190
+e321099806.816171
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectCalibration.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectCalibration.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@142"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectCalibration.cpp321099805#321099806#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#134"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectCalibration.cpp8601165312#2288"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectCalibration.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectCalibration.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectPlayer.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectPlayer.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099805.260638
+e321099806.832529
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectPlayer.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectPlayer.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@137"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectPlayer.cpp321099805#321099806#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#129"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectPlayer.cpp8604496256#2278"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectPlayer.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectPlayer.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectRecorder.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectRecorder.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099805.275091
+e321099806.607001
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectRecorder.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectRecorder.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@139"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectRecorder.cpp321099805#321099806#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#131"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectRecorder.cpp8616703680#2282"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/src/ofxKinectRecorder.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxKinectRecorder.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix3x3.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099803.613445
+e321099803.722018
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix3x3.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@138"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp321099803#321099803#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#130"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp8619272512#2276"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix3x3.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix3x3.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix4x4.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix4x4.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099803.722149
+e321099804.511166
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix4x4.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix4x4.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@138"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix4x4.cpp321099803#321099804#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#130"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix4x4.cpp8615677088#2276"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxMatrix4x4.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxMatrix4x4.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxQuaternion.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxQuaternion.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099803.807527
+e321099804.431303
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxQuaternion.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxQuaternion.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@139"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxQuaternion.cpp321099803#321099804#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#131"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxQuaternion.cpp8623810848#2278"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxVectorMath/src/ofxQuaternion.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxQuaternion.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxThread.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxThread/src/ofxThread.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099803.450126
+e321099804.060920
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxThread.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxThread/src/ofxThread.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@131"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxThread/src/ofxThread.cpp321099803#321099804#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#123"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxThread/src/ofxThread.cpp8615641216#2266"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxThread/src/ofxThread.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxThread.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxXmlSettings.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099806.938555
+e321099808.265686
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxXmlSettings.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@141"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp321099806#321099808#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#133"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp8619337568#2281"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/ofxXmlSettings.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/testApp.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/testApp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099799.854143
+e321099802.212457
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/testApp.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/testApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@103"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/testApp.cpp321099799#321099802#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#95"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/testApp.cpp8600635456#2236"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/src/testApp.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/testApp.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tilt.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/tilt.c normal i386 c com.apple.compilers.gcc.4_2
+s321099804.431390
+e321099805.255725
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tilt.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/tilt.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@137"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/tilt.c321099804#321099805#0(0"0(0#0#129"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/tilt.c8616712800#2215"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-asjyvoppafkxhjbzxuatxnwtqkot/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/tilt.c -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tilt.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxml.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxml.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099806.607136
+e321099807.499015
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxml.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxml.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@135"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxml.cpp321099806#321099807#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#127"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxml.cpp8619399456#2268"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxml.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxml.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlerror.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099806.816365
+e321099807.306056
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlerror.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@140"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp321099806#321099807#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#132"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp8623732384#2278"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlerror.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlparser.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s321099806.832656
+e321099807.528092
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlparser.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done
+lSLF07#2@141"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp321099806#321099807#0(92"i686-apple-darwin10-gcc-4.2.1: -lpthread: linker input file unused because linking not done0(0#0#133"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp8623761632#2280"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -Wno-invalid-offsetof -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -D__MACOSX_CORE__ -lpthread -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/tinyxmlparser.o0#
+
+CCompileC build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/usb_libusb10.o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/usb_libusb10.c normal i386 c com.apple.compilers.gcc.4_2
+s321099804.511256
+e321099805.259083
+r1
+xCompileC
+xbuild/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/usb_libusb10.o
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/usb_libusb10.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@145"Compile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/usb_libusb10.c321099804#321099805#0(0"0(0#0#137"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/usb_libusb10.c8619371648#2231"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mfix-and-continue -ftree-vectorize -msse3 -mssse3 -Wno-deprecated-declarations -gdwarf-2 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug.hmap -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/include -I../../../addons/ofxKinect/libs/libusb -I../../../addons/ofxKinect/libs/libusb/osx -I../../../addons/ofxKinect/libs/libusb/osx/include -I../../../addons/ofxKinect/libs/libusb/osx/libs -I../../../addons/ofxKinect/libs/libusb/osx/include/libusb-1.0 -I../../../libs/openFrameworks -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/poco/include -I../../../addons -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources/i386 -I/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources -include /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-asjyvoppafkxhjbzxuatxnwtqkot/Carbon.h -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libfreenect/usb_libusb10.c -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/usb_libusb10.o0#
+
+CLd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/MacOS/jugglingTrackerDebug normal i386
+s321099808.319051
+e321099810.063103
+r1
+xLd
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/MacOS/jugglingTrackerDebug
+xnormal
+xi386
+lSLF07#2@150"Link /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/MacOS/jugglingTrackerDebug321099808#321099810#0(0"0(0#0#0"8623728224#3912"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    /Developer/usr/bin/g++-4.2 -arch i386 -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freeimage/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/fmodex/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/FreeImage/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/GLee/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/rtAudio/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libusb/osx/libs -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/libs/opencv/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOsc/libs/oscpack/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freetype/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/FreeImage/lib/osx -L/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libusb/osx/libs -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin -F/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx -filelist /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/jugglingTrackerDebug.LinkFileList -dead_strip /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/GLee/lib/osx/GLee.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/rtAudio/lib/osx/rtAudio.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework Carbon -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -framework GLUT /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/CppUnit.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/PocoFoundation.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/PocoNet.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/PocoUtil.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx/PocoXML.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/libs/opencv/lib/osx/openCV.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freetype/lib/osx/freetype.a -lfmodex /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/FreeImage/lib/osx/freeimage.a /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libusb/osx/libs/usb-1.0.a -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/MacOS/jugglingTrackerDebug0#
+
+CPBXCp bin/jugglingTrackerDebug.app/Contents/Frameworks/GLUT.framework ../../../libs/glut/lib/osx/GLUT.framework
+s321099810.145090
+e321099810.386848
+r1
+xPBXCp
+xbin/jugglingTrackerDebug.app/Contents/Frameworks/GLUT.framework
+x../../../libs/glut/lib/osx/GLUT.framework
+lSLF07#2@46"Copy ../../../libs/glut/lib/osx/GLUT.framework321099810#321099810#0(0"0(0#0#121"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx/GLUT.framework8623387712#500"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx/GLUT.framework /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/jugglingTrackerDebug.app/Contents/Frameworks0#
+
+CPBXCp bin/jugglingTrackerDebug.app/Contents/Resources/openFrameworks-Info.plist openFrameworks-Info.plist
+s321099810.386926
+e321099810.390447
+r1
+xPBXCp
+xbin/jugglingTrackerDebug.app/Contents/Resources/openFrameworks-Info.plist
+xopenFrameworks-Info.plist
+lSLF07#2@30"Copy openFrameworks-Info.plist321099810#321099810#0(0"0(0#0#105"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/openFrameworks-Info.plist8607413248#483"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/openFrameworks-Info.plist /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/jugglingTrackerDebug.app/Contents/Resources0#
+
+CPhaseScriptExecution "Run Script" /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+s321099810.063252
+e321099810.145013
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
+lSLF07#2@36"Run custom shell script 'Run Script'321099810#321099810#0(0"0(0#0#0"8617013184#22533"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER adminmp    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build    setenv BUILD_ROOT /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/    setenv CACHE_ROOT /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/    setenv CONFIGURATION_TEMP_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug    setenv CONTENTS_FOLDER_PATH jugglingTrackerDebug.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH jugglingTrackerDebug.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/jugglingTracker.dst    setenv DWARF_DSYM_FILE_NAME jugglingTrackerDebug.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH jugglingTrackerDebug.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH jugglingTrackerDebug.app/Contents/MacOS    setenv EXECUTABLE_NAME jugglingTrackerDebug    setenv EXECUTABLE_PATH jugglingTrackerDebug.app/Contents/MacOS/jugglingTrackerDebug    setenv FILE_LIST /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH jugglingTrackerDebug.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/\"  \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/glut/lib/osx\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME jugglingTrackerDebug.app    setenv GCC3_VERSION 3.3    setenv GCC_AUTO_VECTORIZATION YES    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_ENABLE_SSE3_EXTENSIONS YES    setenv GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN NO    setenv GCC_MODEL_TUNING G4    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS NO    setenv GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO NO    setenv GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL NO    setenv GCC_WARN_UNINITIALIZED_AUTOS NO    setenv GCC_WARN_UNUSED_VALUE NO    setenv GCC_WARN_UNUSED_VARIABLE NO    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//include\" ../../../addons/ofxKinect/libs/libusb/** ../../../libs/openFrameworks/** ../../../libs/freetype/include/ ../../../libs/freetype/include/freetype2 ../../../libs/poco/include ../../../addons/"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE openFrameworks-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH jugglingTrackerDebug.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH jugglingTrackerDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/jugglingTracker.dst/Users/adminmp/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER adminmp    setenv INSTALL_PATH /Users/adminmp/Applications    setenv INSTALL_ROOT /tmp/jugglingTracker.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH jugglingTrackerDebug.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/jugglingTrackerDebug-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/\"  \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freeimage/lib/osx\" \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/fmodex/lib/osx\" \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/FreeImage/lib/osx\" \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/GLee/lib/osx\" \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx\" \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/rtAudio/lib/osx\"    \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libusb/osx/libs\"  \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/libs/opencv/lib/osx\" \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOsc/libs/oscpack/lib/osx\"  \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freetype/lib/osx\" \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/FreeImage/lib/osx\"    \"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libusb/osx/libs\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freeimage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_10 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxKinect/libs/libusb/osx/libs\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_12 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOpenCv/libs/opencv/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_13 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../addons/ofxOsc/libs/oscpack/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_15 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/freetype/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/fmodex/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/FreeImage/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/GLee/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_5 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/poco/lib/osx\""    setenv LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_6 "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/../../../libs/rtAudio/lib/osx\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal/i386/jugglingTrackerDebug.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH jugglingTrackerDebug.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_VERSION_ACTUAL 1064    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0604    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Objects-normal    setenv OBJROOT /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CPLUSPLUSFLAGS "-D__MACOSX_CORE__ -lpthread"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH jugglingTrackerDebug.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c c++"    setenv PKGINFO_FILE_PATH /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/PkgInfo    setenv PKGINFO_PATH jugglingTrackerDebug.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH jugglingTrackerDebug.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH jugglingTrackerDebug.app/Contents/PrivateHeaders    setenv PRODUCT_NAME jugglingTrackerDebug    setenv PRODUCT_SETTINGS_PATH /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/openFrameworks-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT jugglingTracker    setenv PROJECT_DERIVED_FILE_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/DerivedSources    setenv PROJECT_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv PROJECT_FILE_PATH /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/jugglingTracker.xcodeproj    setenv PROJECT_NAME jugglingTracker    setenv PROJECT_TEMP_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build    setenv PUBLIC_HEADERS_FOLDER_PATH jugglingTrackerDebug.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH jugglingTrackerDebug.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH jugglingTrackerDebug.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH jugglingTrackerDebug.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv SRCROOT /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/SymbolRepositories    setenv SYMROOT /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME jugglingTracker    setenv TARGET_BUILD_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin/    setenv TARGET_NAME jugglingTracker    setenv TARGET_TEMP_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build    setenv TEMP_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build    setenv TEMP_FILES_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build    setenv TEMP_FILE_DIR /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build    setenv TEMP_ROOT /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH jugglingTrackerDebug.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER adminmp    setenv USER_APPS_DIR /Users/adminmp/Applications    setenv USER_LIBRARY_DIR /Users/adminmp/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH jugglingTrackerDebug.app/Contents/version.plist    setenv VERSION_INFO_BUILDER adminmp    setenv VERSION_INFO_FILE jugglingTrackerDebug_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:jugglingTrackerDebug  PROJECT:jugglingTracker-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME jugglingTrackerDebug.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/build/jugglingTracker.build/Debug/jugglingTracker.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh0#
+
+CProcessInfoPlistFile /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/Info.plist openFrameworks-Info.plist
+s321099799.821430
+e321099799.853025
+r1
+xProcessInfoPlistFile
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/Info.plist
+xopenFrameworks-Info.plist
+lSLF07#2@33"Process openFrameworks-Info.plist321099799#321099799#0(0"0(0#0#105"/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/openFrameworks-Info.plist32088508129017968#452"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    builtin-infoPlistUtility openFrameworks-Info.plist -genpkginfo /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-asjyvoppafkxhjbzxuatxnwtqkot/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/vf/vfES4BjTFnC9Pelnr8FHr++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Carbon-gioieiaavesziugdcwscevmuuwgo/Carbon.h.gch /System/Library/Frameworks/Carbon.framework/Headers/Carbon.h normal i386 c++ com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app
+s321099810.390508
+e321099810.410408
+r1
+xTouch
+x/Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app
+lSLF07#2@115"Touch /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app321099810#321099810#0(0"0(0#0#0"8601232320#219"    cd /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02    /usr/bin/touch -c /Users/adminmp/Documents/of_preRelease_v0062_osxSL_FAT/apps/myApps/ofxtracker02/bin//jugglingTrackerDebug.app0#
+
