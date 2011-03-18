@@ -3,6 +3,8 @@
 #include "ofMain.h"
 #include "ofxOpenCv.h"
 #include "ofxKinect.h"
+#include "ofxControlPanel.h"
+#include "blobTracker.h"
 
 class testApp : public ofBaseApp {
 	public:
@@ -20,7 +22,10 @@ class testApp : public ofBaseApp {
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
 		void windowResized(int w, int h);
-
+		
+		//int getGrayColor(int i, int h, int s, int v, int hRange, int sRange, int vRange);
+		
+	
 		ofxKinect kinect;
 
 		ofxCvColorImage		colorImg;
@@ -37,14 +42,18 @@ class testApp : public ofBaseApp {
 		ofxCvGrayscaleImage		videoGrayscaleBriImage;
 	
 		unsigned char *			grayPixels;
+		unsigned char *			grayPixels2;
+	
 		ofxCvGrayscaleImage		videoGrayscaleCvImage;
+		ofxCvGrayscaleImage		videoGrayscaleCvImage2;
 	
 		// for tracking...
 		int hue, sat, val;
+		int hueRange, satRange, valRange;
 	
-		int hueRange;
-		int satRange;
-		int valRange;
+		// for tracking2nd color...
+		int hue2, sat2, val2;
+		int hueRange2, satRange2, valRange2;
 	
 		
 		bool				bThreshWithOpenCV;
@@ -64,9 +73,27 @@ class testApp : public ofBaseApp {
 		ofxCvGrayscaleImage 	grayBg;
 		ofxCvGrayscaleImage 	grayDiff;
 		ofxCvContourFinder		contourFinder;
+		ofxCvContourFinder		contourFinder2;
 	
 		int 				threshold;
 		bool				bLearnBakground;
+		bool				showCountour;
+		bool				showVideo;
+	
+		
+	
+		ofxControlPanel		panel;
+		ofTrueTypeFont		TTF;
+	
+		//variables para blob tracking
+		blobTracker tracker;
+		blobTracker tracker2;
+	
+			//vector is like an array - but it is more flexible
+			//think of a vector as a c++ array
+		vector <trackedBlob> trackedBlobs;
+		vector <trackedBlob> trackedBlobs2;
+		int distanceThresh;
 	
 	// create a variable of the typSe ofImage
 	//ofxControlPanel			panel;

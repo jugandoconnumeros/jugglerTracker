@@ -20,34 +20,45 @@ void testApp::setup() {
 	videoGrayscaleBriImage.allocate(kinect.width, kinect.height);
 	
 	videoGrayscaleCvImage.allocate(kinect.width, kinect.height);
+	videoGrayscaleCvImage2.allocate(kinect.width, kinect.height);
 	
 	grayPixels = new unsigned char [kinect.width * kinect.height];
+	grayPixels2 = new unsigned char [kinect.width * kinect.height];
 	
 	grayBg.allocate(kinect.width, kinect.height);
 	grayDiff.allocate(kinect.width, kinect.height);
 	
-	hueRange = 20;
-	satRange = 30;
-	valRange = 25;
+	//green ball
+	hueRange = 11;
+	satRange = 85;
+	valRange = 57;
+	hue = 90;
+	sat = 101;
+	val = 254;
 	
-	hue = 180;
-	sat = 253;
-	val = 171;
+	//red ball
+	hueRange2 = 43;
+	satRange2 = 129;
+	valRange2 = 31;
+	hue2 = 170;
+	sat2 = 251;
+	val2 = 251;
 	
 	//opnecv example vars
 	bLearnBakground = true;
 	threshold = 80;
 	
-	areaTreshold = 300;
+	//min area for a ball
+	areaTreshold = 100;
 	
 	//nearThreshold = 230;
 	//farThreshold  = 70;
 	bThreshWithOpenCV = true;
 	
-	ofSetFrameRate(60);
+	ofSetFrameRate(30);
 
 	// zero the tilt on startup
-	angle = 0;
+	angle = 15;
 	kinect.setCameraTiltAngle(angle);
 	tempArea = 0.0f;
 	// start from the front
@@ -55,17 +66,48 @@ void testApp::setup() {
 	
 	drawPC = false;
 	drawDepth = false;
+	showCountour = true;
+	showVideo = true;
+	
+	//control panel
+	/*panel.loadFont("MONACO.TTF", 8);
+	panel.setup("cv settings", 680, 0, 330, 768);
+	panel.addPanel("control",1,false);
+	panel.setWhichPanel("control");
+	panel.setWhichColumn(0);
+	panel.addToggle("drawDepth", "VIDEO_DRAW_DEPTH", 0);
+	panel.addSlider("hue range ", "HUERANGE", 20, 0, 255, true);
+	panel.addSlider("sat range ", "SATRANGE", 30, 0, 255, true);
+	panel.addSlider("val range ", "VALRANGE", 25, 0, 255, true);
+	panel.loadSettings("cvSettings.xml");*/
+	
+	
+	
+	//how far a blob has to move between frames before it is treated as a new blob
+	//you usually have to adjust this based on the size of the video and the people within it.
+	//basically this is 'how far do you think someone would normally move between frames measured in pixels'
+	distanceThresh = 30;
+	
+	//we say that we are interested in previous blobs that are younger than 500ms
+	//this means that if we don't see a stored blob for more than half a second we forget about it.
+	//this is essentially the memory in milliseconds of your tracker
+	tracker.setup(900);
+	tracker2.setup(900);
+	
 }
 
 //--------------------------------------------------------------
 void testApp::update() {
-	//ofSetBackgroundAuto(false);
-	ofBackground(0, 0, 0);
+	ofSetBackgroundAuto(true);
+	ofBackground(80, 80, 80);
+	
+	//get new kinect frame
 	kinect.update();
 	bool bNewFrame = kinect.isFrameNew();
-	if(kinect.isFrameNew())	// there is a new frame and we are connected
+	if(bNewFrame)	// there is a new frame and we are connected
 	{
-		//from opencv example
+		int i;
+		//get the kinect img and ssign it
 		colorImg.setFromPixels(kinect.getPixels(), kinect.width,kinect.height);
 		//grayImage = colorImg;
 		videoColorHSVCvImage = colorImg;
@@ -74,8 +116,9 @@ void testApp::update() {
 		
 		unsigned char * colorHsvPixels = videoColorHSVCvImage.getPixels();
 		
-		for (int i = 0; i < kinect.width*kinect.height; i++){
-			// since hue is cyclical:
+		
+		for (i = 0; i < kinect.width*kinect.height; i++){
+			
 			int hueDiff = colorHsvPixels[i*3] - hue;
 			if (hueDiff < -127) hueDiff += 255;
 			if (hueDiff > 127) hueDiff -= 255;
@@ -88,104 +131,129 @@ void testApp::update() {
 				
 			} else {
 				
-				grayPixels[i] = 0;
+				grayPixels[i] =  0;
 			}
+			
+			hueDiff = colorHsvPixels[i*3] - hue2;
+			if (hueDiff < -127) hueDiff += 255;
+			if (hueDiff > 127) hueDiff -= 255;
+			
+			if ( (fabs(hueDiff) < hueRange2) &&
+				(colorHsvPixels[i*3+1] > (sat2 - satRange2) && colorHsvPixels[i*3+1] < (sat2 + satRange2)) &&
+				(colorHsvPixels[i*3+2] > (val2 - valRange2) && colorHsvPixels[i*3+2] < (val2 + valRange2))){
+				
+				grayPixels2[i] = 255;
+				
+			} else {
+				
+				grayPixels2[i] =  0;
+			}
+			// for each track
+			//grayPixels[i] = getGrayColor(i,hue,sat,val,hueRange,satRange,valRange);
+			//get
 		}
 		
 		videoGrayscaleCvImage.setFromPixels(grayPixels, kinect.width, kinect.height);
-		
-		contourFinder.findContours(videoGrayscaleCvImage, 10, (kinect.width*kinect.height)/2, 20, false);
+		videoGrayscaleCvImage2.setFromPixels(grayPixels2, kinect.width, kinect.height);
+	
+		int count = contourFinder.findContours(videoGrayscaleCvImage, areaTreshold, 40*40, 2, false, true);
+		int count2 = contourFinder2.findContours(videoGrayscaleCvImage2, areaTreshold, 40*40, 2, false, true);
 		
 		grayImage.setFromPixels(kinect.getDepthPixels(), kinect.width, kinect.height);
-		/*if (bLearnBakground == true){
-			grayBg = grayImage;		// the = sign copys the pixels from grayImage into grayBg (operator overloading)
-			bLearnBakground = false;
-		}
 		
-		grayDiff.absDiff(grayBg, grayImage);
-		grayDiff.threshold(threshold);
+		bool blobMatched;
 		
-		// find contours which are between the size of 20 pixels and 1/3 the w*h pixels.
-		// also, find holes is set to true so we will get interior contours as well....
-		contourFinder.findContours(grayDiff, 20, (kinect.width*kinect.height)/3, 10, true);
-		
-		//grayImage.setFromPixels(kinect.getDepthPixels(), kinect.width, kinect.height);
-			
-		//we do two thresholds - one for the far plane and one for the near plane
-		//we then do a cvAnd to get the pixels which are a union of the two thresholds.	
-		/*if( bThreshWithOpenCV ){
-			grayThreshFar = grayImage;
-			grayThresh = grayImage;
-			grayThresh.threshold(nearThreshold, true);
-			grayThreshFar.threshold(farThreshold);
-			cvAnd(grayThresh.getCvImage(), grayThreshFar.getCvImage(), grayImage.getCvImage(), NULL);
-		}else{
-		
-			//or we do it ourselves - show people how they can work with the pixels
-		
-			unsigned char * pix = grayImage.getPixels();
-			int numPixels = grayImage.getWidth() * grayImage.getHeight();
-
-			for(int i = 0; i < numPixels; i++){
-				if( pix[i] < nearThreshold && pix[i] > farThreshold ){
-					pix[i] = 255;
-				}else{
-					pix[i] = 0;
+		tracker.begin();
+		if( count > 0) {
+			trackedBlobs.assign(count, trackedBlob());
+			for (i = 0; i < count; i++) {
+				trackedBlobs[i] = contourFinder.blobs[i];
+				//see if the blob is one known from previous frames
+				blobMatched = tracker.matchTrackedBlob( trackedBlobs[i], distanceThresh );
+				if( blobMatched == false){
+					tracker.addBlob(trackedBlobs[i]);
 				}
 			}
 		}
-
-		//update the cv image
-		grayImage.flagImageChanged();
-	
-		// find contours which are between the size of 20 pixels and 1/3 the w*h pixels.
-    	// also, find holes is set to true so we will get interior contours as well....
-    	contourFinder.findContours(grayImage, 10, (kinect.width*kinect.height)/2, 20, false);*/
+		tracker.end();
 		
+		//test with 2 separate trackers
+		tracker2.begin();
+		if( count2 > 0) {
+			trackedBlobs2.assign(count2, trackedBlob());
+			for (i = 0; i < count2; i++) {
+				trackedBlobs2[i] = contourFinder2.blobs[i];
+				//see if the blob is one known from previous frames
+				blobMatched = tracker2.matchTrackedBlob( trackedBlobs2[i], distanceThresh );
+				if( blobMatched == false){
+					tracker2.addBlob(trackedBlobs2[i]);
+				}
+			}
+		}
+		tracker2.end();
 		
 	}
 }
 
+
 //--------------------------------------------------------------
 void testApp::draw() {
-	
-	ofSetColor(255, 255, 255);
-	if(drawPC){
-		ofPushMatrix();
-		ofTranslate(420, 320);
-		// we need a proper camera class
-		//drawPointCloud();
-		ofPopMatrix();
-	}else{
-		//kinect.drawDepth(10, 10, 400, 300);
-		//kinect.draw(420, 10, 400, 300);
-
-		//grayImage.draw(10, 320, 400, 300);
-		//contourFinder.draw(10, 320, 400, 300);
-	}
-
+	ofBackground(80, 80, 80);
 	ofSetColor(0xffffff);
-	
-	if (drawDepth) {
-		grayImage.draw(0,0,kinect.width,kinect.height);
-	} else {
-		colorImg.draw(0,0,kinect.width,kinect.height);
+	if(showVideo) {
+		if (drawDepth) {
+			grayImage.draw(0,0,kinect.width,kinect.height);
+		} else {
+			colorImg.draw(0,0,kinect.width,kinect.height);
+		}
 	}
-
+	//videoColorHSVCvImage.draw(0, 480, 160, 120);
+	//videoGrayscaleCvImage.draw(160,480,160,120);
 	
 	/*videoColorHSVCvImage.draw(0, 480, 160, 120);
 	videoGrayscaleHueImage.draw(160,480,160,120);
 	videoGrayscaleSatImage.draw(320,480, 160, 120);
 	videoGrayscaleBriImage.draw(480,480,160,120);*/
-	videoGrayscaleCvImage.draw(640,480,160,120);
 	
+	int i;
 	
-	for (int i = 0; i < contourFinder.nBlobs; i++){
-		ofSetColor(0xff9000);
-		contourFinder.blobs[i].draw(0,0);
-		ofSetColor(0xffff00);
-		//ofRect(contourFinder.blobs[i].boundingRect.x, contourFinder.blobs[i].boundingRect.y, contourFinder.blobs[i].boundingRect.width, contourFinder.blobs[i].boundingRect.height);
-		ofCircle(contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y, 4);
+	if(showCountour) {
+		
+		if (contourFinder.nBlobs > 0 ) {
+			for (i = 0; i < contourFinder.nBlobs; i++) {
+				ofSetColor(0xff9000);
+				contourFinder.blobs[i].draw(0,0);
+				ofCircle(contourFinder.blobs[i].centroid.x, contourFinder.blobs[i].centroid.y, 4);
+			}
+		} 		
+				
+		if(contourFinder2.nBlobs > 0) {
+			for (i = 0; i < contourFinder2.nBlobs; i++) {
+				ofSetColor(0xffff00);
+				contourFinder2.blobs[i].draw(0,0);
+				ofCircle(contourFinder2.blobs[i].centroid.x, contourFinder2.blobs[i].centroid.y, 4);
+			}
+		}
+		
+	} else {
+		if(trackedBlobs.size() > 0){
+			for (i = 0; i < trackedBlobs.size(); i++) {
+				ofSetColor(0x0000FF);
+				ofFill();
+				ofCircle(trackedBlobs[i].centroid.x, trackedBlobs[i].centroid.y, 4);
+				ofSetColor(0xFFFFFF);
+				ofDrawBitmapString(ofToString(i,0), trackedBlobs[i].centroid.x+20, trackedBlobs[i].centroid.y+20);
+			}
+		}
+		if (trackedBlobs2.size() > 0) {
+			for (i = 0; i < trackedBlobs2.size(); i++) {
+				ofSetColor(0x00FFFF);
+				ofFill();
+				ofCircle(trackedBlobs2[i].centroid.x, trackedBlobs2[i].centroid.y, 4);
+				ofSetColor(0xFFFFFF);
+				ofDrawBitmapString(ofToString(i+2,0), trackedBlobs2[i].centroid.x+20, trackedBlobs2[i].centroid.y+20);
+			}
+		}
 	}
 	/*grayImage.draw(180,20,160,120);
 	grayBg.draw(20,130,160,120);
@@ -232,6 +300,8 @@ void testApp::draw() {
 	<< " hueRange (z/x)= " << hueRange << " satRange (c/v)= " << satRange << " valRange (b/n)= " << valRange << endl
 	<< " HSV (click to change)" << hue << " " << sat << " " << val << endl
 	<< "num blobs found:" << contourFinder.nBlobs << " draw depth (p): " << drawDepth << endl
+	<< "minArea (a/s)" << areaTreshold << " show countour(q): " << showCountour << endl
+	<< "distanceTreshold (d/f)" << distanceThresh << " showVideo (o) " << showVideo << endl 
 	<< endl;
 	
 	
@@ -244,6 +314,8 @@ void testApp::draw() {
 	<< "blob1 area " <<  tempArea << endl;*/
 	ofSetColor(0xffffff);
 	ofDrawBitmapString(reportStream.str(), 20, 630);
+	
+	//panel.draw();
 }
 
 void testApp::drawPointCloud() {
@@ -286,11 +358,11 @@ void testApp::keyPressed (int key) {
 			if (threshold < 0) threshold = 0;
 			break;
 		
-		case 'a':
-			areaTreshold -=10;
-			break;
 		case 's':
-			areaTreshold +=10;
+			areaTreshold--;
+			break;
+		case 'a':
+			areaTreshold++;
 			break;
 			
 		case 'z':
@@ -316,6 +388,21 @@ void testApp::keyPressed (int key) {
 			
 		case 'p':
 			drawDepth = !drawDepth;
+			break;
+		
+		case 'o':
+			showVideo = !showVideo;
+			break;
+			
+		case 'q':
+			showCountour = !showCountour;
+			break;
+		
+		case 'd':
+			distanceThresh++;
+			break;
+		case 'f':
+			distanceThresh--;
 			break;
 /*		case ' ':
 			bThreshWithOpenCV = !bThreshWithOpenCV;

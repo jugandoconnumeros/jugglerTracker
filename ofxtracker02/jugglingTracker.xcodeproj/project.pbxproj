@@ -25,6 +25,7 @@
 		5F295FE61322990000BEAF26 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F295FE01322990000BEAF26 /* tinyxmlparser.cpp */; };
 		5F295FE71322990000BEAF26 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F295FE21322990000BEAF26 /* ofxXmlSettings.cpp */; };
 		5F295FF11322991E00BEAF26 /* ofxDirList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F295FEF1322991E00BEAF26 /* ofxDirList.cpp */; };
+		5F813BED132A8CEE00415210 /* blobTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F813BEC132A8CEE00415210 /* blobTracker.cpp */; };
 		5FBA354213239AD800E627AF /* guiBaseObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA350813239AD800E627AF /* guiBaseObject.cpp */; };
 		5FBA354313239AD800E627AF /* guiCallback.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA350A13239AD800E627AF /* guiCallback.cpp */; };
 		5FBA354413239AD800E627AF /* guiCallbackValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA350C13239AD800E627AF /* guiCallbackValue.cpp */; };
@@ -179,6 +180,9 @@
 		5F295FED1322991E00BEAF26 /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
 		5F295FEF1322991E00BEAF26 /* ofxDirList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxDirList.cpp; sourceTree = "<group>"; };
 		5F295FF01322991E00BEAF26 /* ofxDirList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxDirList.h; sourceTree = "<group>"; };
+		5F813BE6132A8B5200415210 /* trackedBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trackedBlob.h; sourceTree = "<group>"; };
+		5F813BEB132A8CEE00415210 /* blobTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blobTracker.h; sourceTree = "<group>"; };
+		5F813BEC132A8CEE00415210 /* blobTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blobTracker.cpp; sourceTree = "<group>"; };
 		5FBA350813239AD800E627AF /* guiBaseObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiBaseObject.cpp; sourceTree = "<group>"; };
 		5FBA350913239AD800E627AF /* guiBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guiBaseObject.h; sourceTree = "<group>"; };
 		5FBA350A13239AD800E627AF /* guiCallback.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = guiCallback.cpp; sourceTree = "<group>"; };
@@ -956,6 +960,9 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
+				5F813BE6132A8B5200415210 /* trackedBlob.h */,
+				5F813BEB132A8CEE00415210 /* blobTracker.h */,
+				5F813BEC132A8CEE00415210 /* blobTracker.cpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -1171,6 +1178,7 @@
 				5FBA355A13239AD800E627AF /* simpleColor.cpp in Sources */,
 				5FBA355B13239AD800E627AF /* simpleFileLister.cpp in Sources */,
 				5FBA355C13239AD800E627AF /* simpleLogger.cpp in Sources */,
+				5F813BED132A8CEE00415210 /* blobTracker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
