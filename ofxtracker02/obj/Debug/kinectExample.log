@@ -1,10 +1,64 @@
-﻿Build started 3/19/2011 5:07:42 PM.
+﻿Build started 3/22/2011 11:09:30 PM.
      1>Project "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\kinectExample.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "obj\Debug\jugglinTracker02.unsuccessfulbuild".
+         Creating "obj\Debug\jugglinTracker02.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxVectorMath\src /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxControlPanel\src\ofxControlPanel\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\ofxControlPanel\src\guiTypePanel.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxVectorMath\src /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxControlPanel\src\ofxControlPanel\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\addons\ofxDirList\src\ofxDirList.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp ..\..\..\addons\ofxVectorMath\src\ofxMatrix4x4.cpp ..\..\..\addons\ofxVectorMath\src\ofxQuaternion.cpp ..\..\..\addons\ofxThread\src\ofxThread.cpp ..\..\..\addons\ofxKinect\src\ofxKinect.cpp ..\..\..\addons\ofxKinect\src\ofxKinectCalibration.cpp ..\..\..\addons\ofxKinect\src\ofxKinectPlayer.cpp ..\..\..\addons\ofxKinect\src\ofxKinectRecorder.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp ..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp src\blobTracker.cpp src\main.cpp src\ofxControlPanel\src\guiBaseObject.cpp src\ofxControlPanel\src\guiCallback.cpp src\ofxControlPanel\src\guiCallbackValue.cpp src\ofxControlPanel\src\guiColor.cpp src\ofxControlPanel\src\guiTextBase.cpp src\ofxControlPanel\src\guiType2DSlider.cpp src\ofxControlPanel\src\guiTypeButtonSlider.cpp src\ofxControlPanel\src\guiTypeChartPlotter.cpp src\ofxControlPanel\src\guiTypeCustom.cpp src\ofxControlPanel\src\guiTypeDrawable.cpp src\ofxControlPanel\src\guiTypeFileLister.cpp src\ofxControlPanel\src\guiTypeLabel.cpp src\ofxControlPanel\src\guiTypeLogger.cpp src\ofxControlPanel\src\guiTypeMultiToggle.cpp src\ofxControlPanel\src\guiTypePanel.cpp src\ofxControlPanel\src\guiTypeSlider.cpp src\ofxControlPanel\src\guiTypeText.cpp src\ofxControlPanel\src\guiTypeTextDropDown.cpp src\ofxControlPanel\src\guiTypeTextInput.cpp src\ofxControlPanel\src\guiTypeToggle.cpp src\ofxControlPanel\src\guiTypeVairableLister.cpp src\ofxControlPanel\src\guiTypeVideo.cpp src\ofxControlPanel\src\guiValue.cpp src\ofxControlPanel\src\ofxControlPanel.cpp src\ofxControlPanel\src\simpleColor.cpp src\ofxControlPanel\src\simpleFileLister.cpp src\ofxControlPanel\src\simpleLogger.cpp src\testApp.cpp
+         testApp.cpp
+         simpleLogger.cpp
+         simpleFileLister.cpp
+         simpleColor.cpp
+         ofxControlPanel.cpp
+         guiValue.cpp
+         guiTypeVideo.cpp
+         guiTypeVairableLister.cpp
+         guiTypeToggle.cpp
+         guiTypeTextInput.cpp
+         guiTypeTextDropDown.cpp
+         guiTypeText.cpp
+         guiTypeSlider.cpp
          guiTypePanel.cpp
+         guiTypeMultiToggle.cpp
+         guiTypeLogger.cpp
+         guiTypeLabel.cpp
+         guiTypeFileLister.cpp
+         guiTypeDrawable.cpp
+         guiTypeCustom.cpp
+         Generating Code...
+     1>c:\cinder\ofx\0.062\apps\myapps\ofxtracker02\src\ofxcontrolpanel\src\simplelogger.cpp(113): warning C4700: uninitialized local variable 'yPos' used
+     1>c:\cinder\ofx\0.062\apps\myapps\ofxtracker02\src\ofxcontrolpanel\src\simplelogger.cpp(125): warning C4700: uninitialized local variable 'yPos' used
+         Compiling...
+         guiTypeChartPlotter.cpp
+         guiTypeButtonSlider.cpp
+         guiType2DSlider.cpp
+         guiTextBase.cpp
+         guiColor.cpp
+         guiCallbackValue.cpp
+         guiCallback.cpp
+         guiBaseObject.cpp
+         main.cpp
+         blobTracker.cpp
+         ofxXmlSettings.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         ofxKinectRecorder.cpp
+         ofxKinectPlayer.cpp
+         ofxKinectCalibration.cpp
+         ofxKinect.cpp
+         ofxThread.cpp
+         ofxQuaternion.cpp
+         Generating Code...
+         Compiling...
+         ofxMatrix4x4.cpp
+         ofxCvShortImage.cpp
+         ofxCvImage.cpp
+         ofxCvGrayscaleImage.cpp
+         ofxCvFloatImage.cpp
+         ofxCvContourFinder.cpp
+         ofxCvColorImage.cpp
+         ofxDirList.cpp
+         Generating Code...
        ManifestResourceCompile:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"obj\Debug\jugglinTracker02_debug.exe.embed.manifest.res" obj\Debug\jugglinTracker02_debug_manifest.rc 
        Link:
@@ -268,4 +322,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:19.71
+Time Elapsed 00:04:55.03

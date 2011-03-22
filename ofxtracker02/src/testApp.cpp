@@ -3,6 +3,8 @@
 
 //--------------------------------------------------------------
 void testApp::setup() {
+
+	ofSetFrameRate(30);
 	//kinect.init(true);  //shows infrared image
 	kinect.init();
 	kinect.setVerbose(true);
@@ -54,13 +56,11 @@ void testApp::setup() {
 	//nearThreshold = 230;
 	//farThreshold  = 70;
 	bThreshWithOpenCV = true;
-	
-	ofSetFrameRate(30);
 
 	// zero the tilt on startup
 	angle = 15;
 	kinect.setCameraTiltAngle(angle);
-	tempArea = 0.0f;
+	//tempArea = 0.0f;
 	// start from the front
 	//pointCloudRotationY = 180;
 	
@@ -69,34 +69,59 @@ void testApp::setup() {
 	showCountour = true;
 	showVideo = true;
 	
-	ofxControlPanel::setBackgroundColor(simpleColor(15, 15, 15, 150));
-	ofxControlPanel::setTextColor(simpleColor(255, 255, 255, 255));
-	
-	//control panel
-	panel.loadFont("MONACO.TTF", 8);
-	panel.setup("cv settings", 640, 0, 400, 760);
-	panel.addPanel("control",2,false);
-	panel.setWhichPanel("control");
-	panel.setWhichColumn(0);
-	panel.addToggle("drawDepth", "VIDEO_DRAW_DEPTH", 0);
-	panel.addSlider("hue range ", "HUERANGE", 20, 0, 255, true);
-	panel.addSlider("sat range ", "SATRANGE", 30, 0, 255, true);
-	panel.addSlider("val range ", "VALRANGE", 25, 0, 255, true);
-	
-	panel.setWhichColumn(1);
-	panel.addToggle("drawVideo", "VIDEO_DRAW_VIDEO", 1);
-	panel.addSlider("hue range2 ", "HUERANGE2", 20, 0, 255, true);
-	panel.addSlider("sat range2 ", "SATRANGE2", 30, 0, 255, true);
-	panel.addSlider("val range2 ", "VALRANGE2", 25, 0, 255, true);
-	
-	panel.loadSettings("cvSettings.xml");
-	
-	
-	
 	//how far a blob has to move between frames before it is treated as a new blob
 	//you usually have to adjust this based on the size of the video and the people within it.
 	//basically this is 'how far do you think someone would normally move between frames measured in pixels'
 	distanceThresh = 30;
+
+	ofxControlPanel::setBackgroundColor(simpleColor(15, 15, 15, 150));
+	ofxControlPanel::setTextColor(simpleColor(255, 255, 255, 255));
+	
+	//control panel
+	panel.loadFont("MONACO.TTF", 2);
+
+	panel.setup("cv settings", 640, 0, ofGetWidth()-kinect.width, 760);
+	
+	panel.addPanel("control",2,false);
+	panel.setWhichPanel("control");
+	panel.setWhichColumn(0);
+	panel.addSlider("hue range ", "HUERANGE", hueRange, 0, 255, true);
+	panel.addSlider("sat range ", "SATRANGE", satRange, 0, 255, true);
+	panel.addSlider("val range ", "VALRANGE", valRange, 0, 255, true);
+	panel.addSlider("hue ", "HUE", hue, 0, 255, true);
+	panel.addSlider("sat ", "SAT", sat, 0, 255, true);
+	panel.addSlider("val ", "VAL", val, 0, 255, true);
+	panel.addSlider("minimunArea ", "MIN_AREA", areaTreshold, 0, 1600, true);
+	panel.addSlider("distanceTreshold ", "DISTANCE_TRESHOLD", distanceThresh, 0, 100, true);
+	panel.addSlider("number of blobs", "BLOB_QTY", 2, 0, 4,true);
+	panel.addToggle("useThisTracker", "TRACKER_USE", 1);
+	panel.addToggle("drawDepth", "VIDEO_DRAW_DEPTH", 0);
+	panel.addToggle("toggleContour", "CONTOUR_MODE", 1);
+	panel.addToggle("captureColor", "CAPTURE_MODE", 0);
+
+	panel.setWhichColumn(1);
+	panel.addSlider("hue range2 ", "HUERANGE2", hueRange2, 0, 255, true);
+	panel.addSlider("sat range2 ", "SATRANGE2", satRange2, 0, 255, true);
+	panel.addSlider("val range2 ", "VALRANGE2", valRange2, 0, 255, true);
+	panel.addSlider("hue2 ", "HUE2", hue2, 0, 255, true);
+	panel.addSlider("sat2 ", "SAT2", sat2, 0, 255, true);
+	panel.addSlider("val2 ", "VAL2", val2, 0, 255, true);
+	panel.addSlider("minimunArea2 ", "MIN_AREA2", 100, 0, 1600, true);
+	panel.addSlider("distanceTreshold2 ", "DISTANCE_TRESHOLD2", 30, 0, 100, true);
+	panel.addSlider("number of blobs2", "BLOB_QTY2", 2, 0, 4,true);
+	panel.addToggle("useThisTracker", "TRACKER_USE2", 1);
+	panel.addToggle("drawVideo", "VIDEO_DRAW_VIDEO", 1);
+	panel.addToggle("drawBlobImages", "VIDEO_DRAW_BLOB", 1);
+
+	//not working
+	panel.loadSettings("cvSettings.xml");
+	
+	//if you want to use events call this after you have added all your gui elements
+	panel.setupEvents();
+	panel.enableEvents();
+	
+	//  -- this gives you back an ofEvent for all events in this control panel object
+	ofAddListener(panel.guiEvent, this, &testApp::eventsIn);
 	
 	//we say that we are interested in previous blobs that are younger than 500ms
 	//this means that if we don't see a stored blob for more than half a second we forget about it.
@@ -106,11 +131,61 @@ void testApp::setup() {
 	
 }
 
+//this captures all our control panel events - unless its setup differently in testApp::setup
+//--------------------------------------------------------------
+void testApp::eventsIn(guiCallbackData & data){
+	
+	// print to terminal if you want to 
+	//this code prints out the name of the events coming in and all the variables passed
+	/*printf("testApp::eventsIn - name is %s - \n", data.getXmlName().c_str());
+	if( data.getDisplayName() != "" ){
+		printf(" element name is %s \n", data.getDisplayName().c_str());
+	}*/
+	for(int k = 0; k < data.getNumValues(); k++){
+		/*if( data.getType(k) == CB_VALUE_FLOAT ){
+			printf("%i float  value = %f \n", k, data.getFloat(k));
+		}
+		else if( data.getType(k) == CB_VALUE_INT ){
+			printf("%i int    value = %i \n", k, data.getInt(k));
+		}
+		else if( data.getType(k) == CB_VALUE_STRING ){
+			printf("%i string value = %s \n", k, data.getString(k).c_str());
+		}*/
+		string v = data.getXmlName();
+		if (v == "HUERANGE") {
+			hueRange = (int) data.getFloat(k);
+		} else if(v == "SATRANGE") {
+			satRange = (int) data.getFloat(k);
+		} else if(v == "VALRANGE") {
+			valRange = (int) data.getFloat(k);
+		} else if(v == "HUE") {
+			hue = (int) data.getFloat(k);
+		}  else if(v == "SAT") {
+			sat = (int) data.getFloat(k);
+		} else if(v == "VAL") {
+			val = (int) data.getFloat(k);
+		} else if (v == "HUERANG2E") {
+			hueRange2 = (int) data.getFloat(k);
+		} else if(v == "SATRANGE2") {
+			satRange2 = (int) data.getFloat(k);
+		} else if(v == "VALRANGE2") {
+			valRange2 = (int) data.getFloat(k);
+		} else if(v == "HUE2") {
+			hue2 = (int) data.getFloat(k);
+		}  else if(v == "SAT2") {
+			sat2 = (int) data.getFloat(k);
+		} else if(v == "VAL2") {
+			val2 = (int) data.getFloat(k);
+		}
+	}
+	printf("\n");
+}
+
 //--------------------------------------------------------------
 void testApp::update() {
 	ofSetBackgroundAuto(true);
 	ofBackground(80, 80, 80);
-	
+
 	//get new kinect frame
 	kinect.update();
 	bool bNewFrame = kinect.isFrameNew();
@@ -314,23 +389,11 @@ void testApp::draw() {
 	
 	stringstream reportStream;
 	reportStream << "frame rate " << ofGetFrameRate() << endl
-	<< " hueRange (z/x)= " << hueRange << " satRange (c/v)= " << satRange << " valRange (b/n)= " << valRange << endl
-	<< " HSV (click to change)" << hue << " " << sat << " " << val << endl
-	<< "num blobs found:" << contourFinder.nBlobs << " draw depth (p): " << drawDepth << endl
-	<< "minArea (a/s)" << areaTreshold << " show countour(q): " << showCountour << endl
-	<< "distanceTreshold (d/f)" << distanceThresh << " showVideo (o) " << showVideo << endl 
+	<< "num blobs found (tracker1): " << contourFinder.nBlobs << " num blobs found (tracker2):" << contourFinder2.nBlobs
 	<< endl;
 	
-	
-	
-	/*reportStream << "bg subtraction and blob detection\npress ' ' to capture bg\nthreshold " << threshold << endl
-	<< "num blobs found:" << contourFinder.nBlobs << endl
-	<< "frame rate " << ofGetFrameRate()<< endl
-	<< "area treshold " << areaTreshold << endl
-	<< "using opencv threshold = " << bThreshWithOpenCV << endl
-	<< "blob1 area " <<  tempArea << endl;*/
 	ofSetColor(0xffffff);
-	ofDrawBitmapString(reportStream.str(), 20, 630);
+	ofDrawBitmapString(reportStream.str(), 20, ofGetHeight()-30);
 	
 	panel.draw();
 }
@@ -439,44 +502,7 @@ void testApp::keyPressed (int key) {
 		case 'f':
 			distanceThresh--;
 			break;
-/*		case ' ':
-			bThreshWithOpenCV = !bThreshWithOpenCV;
-		break;
-		case'p':
-			drawPC = !drawPC;
-			break;
-	
-		case '>':
-		case '.':
-			farThreshold ++;
-			if (farThreshold > 255) farThreshold = 255;
-			break;
-		case '<':		
-		case ',':		
-			farThreshold --;
-			if (farThreshold < 0) farThreshold = 0;
-			break;
-			
-		case '+':
-		case '=':
-			nearThreshold ++;
-			if (nearThreshold > 255) nearThreshold = 255;
-			break;
-		case '-':		
-			nearThreshold --;
-			if (nearThreshold < 0) nearThreshold = 0;
-			break;
-		case 'w':
-			kinect.enableDepthNearValueWhite(!kinect.isDepthNearValueWhite());
-			break
-		case 'o':
-			kinect.setCameraTiltAngle(angle);	// go back to prev tilt
-			kinect.open();
-			break;
-		case 'c':
-			kinect.setCameraTiltAngle(0);		// zero the tilt
-			kinect.close();
-			break;;*/
+
 
 		case OF_KEY_UP:
 			angle++;
@@ -494,7 +520,7 @@ void testApp::keyPressed (int key) {
 
 //--------------------------------------------------------------
 void testApp::mouseMoved(int x, int y) {
-	pointCloudRotationY = x;
+
 }
 
 //--------------------------------------------------------------

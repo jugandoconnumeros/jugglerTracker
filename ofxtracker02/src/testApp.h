@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofAddons.h"
 #include "ofxOpenCv.h"
 #include "ofxKinect.h"
 #include "ofxControlPanel.h"
@@ -22,7 +23,8 @@ class testApp : public ofBaseApp {
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
 		void windowResized(int w, int h);
-		
+		void eventsIn(guiCallbackData & data);
+
 		float getDistance(int x, int y);
 		//int getGrayColor(int i, int h, int s, int v, int hRange, int sRange, int vRange);
 		
@@ -98,4 +100,6 @@ class testApp : public ofBaseApp {
 	
 		// create a variable of the typSe ofImage
 		//ofxControlPanel			panel;
+
+		
 };
