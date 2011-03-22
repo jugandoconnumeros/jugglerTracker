@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxQuaternion.cpp">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix4x4.cpp">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxThread\src\ofxThread.cpp">
+      <Filter>addons\ofxThread\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testApp.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinect.cpp">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinectCalibration.cpp">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinectPlayer.cpp">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxKinect\src\ofxKinectRecorder.cpp">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\blobTracker.cpp" />
+    <ClCompile Include="src\ofxControlPanel\src\guiBaseObject.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiCallback.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiCallbackValue.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiColor.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTextBase.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiType2DSlider.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeButtonSlider.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeChartPlotter.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeCustom.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeDrawable.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeFileLister.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeLabel.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeLogger.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeMultiToggle.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypePanel.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeSlider.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeText.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeTextDropDown.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeTextInput.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeToggle.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeVairableLister.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiTypeVideo.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\guiValue.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\ofxControlPanel.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\simpleColor.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\simpleFileLister.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxControlPanel\src\simpleLogger.cpp">
+      <Filter>ofxControlPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxDirList\src\ofxDirList.cpp">
+      <Filter>addons\ofxDirList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVectorMath.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec2f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec3f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxVec4f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxQuaternion.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint2f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint3f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint4f.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix4x4.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.h">
+      <Filter>addons\ofxVectorMath\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h">
+      <Filter>addons\ofxOpenCV\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxThread\src\ofxThread.h">
+      <Filter>addons\ofxThread\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\testApp.h" />
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxBase3DVideo.h">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinect.h">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinectCalibration.h">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinectPlayer.h">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxKinect\src\ofxKinectRecorder.h">
+      <Filter>addons\ofxKinect\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\blobTracker.h" />
+    <ClInclude Include="src\trackedBlob.h" />
+    <ClInclude Include="src\ofxControlPanel\src\guiBaseObject.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiCallback.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiCallbackValue.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiColor.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiCustomImpl.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiIncludes.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTextBase.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiType2DSlider.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeButtonSlider.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeChartPlotter.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeCustom.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeDrawable.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeFileLister.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeLabel.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeLogger.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeMultiToggle.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypePanel.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeSlider.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeText.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeTextDropDown.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeTextInput.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeToggle.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeVairableLister.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiTypeVideo.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiValue.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiVariablePointer.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\guiXmlValue.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\ofxControlPanel.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\simpleColor.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\simpleFileLister.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxControlPanel\src\simpleLogger.h">
+      <Filter>ofxControlPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxDirList\src\ofxDirList.h">
+      <Filter>addons\ofxDirList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="addons">
+      <UniqueIdentifier>{fb9e352c-c0b7-4a51-8394-a95887d8e1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCV">
+      <UniqueIdentifier>{d6eac2d3-90b8-45fa-ba9a-e2c34eea2695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinect">
+      <UniqueIdentifier>{2f407c4c-265b-4fdd-8fc6-4266ea8fbf0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThread">
+      <UniqueIdentifier>{fd0ba1f5-3d69-410d-a327-045a621be259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorMath">
+      <UniqueIdentifier>{2c03225a-cf08-4d13-ba48-1533b3414c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorMath\src">
+      <UniqueIdentifier>{7dde5853-e676-44eb-84d2-4a6729cc9f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCV\src">
+      <UniqueIdentifier>{6edcfb1c-6e19-4657-9a6a-ee5ff2cf563f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxKinect\src">
+      <UniqueIdentifier>{00578d1f-5941-4f6d-9354-8d7f6fc92543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThread\src">
+      <UniqueIdentifier>{711b4f9c-c305-4310-be1b-42b122e43ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxControlPanel">
+      <UniqueIdentifier>{6341eed0-6640-4070-aad8-7afedbeec9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{2cb7b4a2-a018-4beb-9fff-ebfab9a8b6c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxDirList">
+      <UniqueIdentifier>{c59afb2a-c39a-4dda-a3f3-102689855a0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\addons\ofxXmlSettings\install.xml">
+      <Filter>addons\ofxXmlSettings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

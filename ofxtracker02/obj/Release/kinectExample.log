@@ -1,0 +1,87 @@
+﻿Build started 3/19/2011 6:02:56 PM.
+     1>Project "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\kinectExample.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj\Release\jugglinTracker02.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxVectorMath\src /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxControlPanel\src\ofxControlPanel\src /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\testApp.cpp
+         testApp.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\jugglinTracker02.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\FreeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\glee\lib\vs2010 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\openFrameworksCompiled\lib\vs2010 /LIBPATH:..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010 /LIBPATH:..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs2010 openframeworksLib.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib GLee.lib fmodex_vc.lib glu32.lib PocoFoundationmt.lib PocoNetmt.lib PocoUtilmt.lib PocoXMLmt.lib Ws2_32.lib cv110.lib cvaux110.lib cxcore110.lib freenect.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"obj\Release\jugglinTracker02.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\jugglinTracker02.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\jugglinTracker02.lib" /MACHINE:X86 obj\Release\ofxDirList.obj
+         obj\Release\ofxCvColorImage.obj
+         obj\Release\ofxCvContourFinder.obj
+         obj\Release\ofxCvFloatImage.obj
+         obj\Release\ofxCvGrayscaleImage.obj
+         obj\Release\ofxCvImage.obj
+         obj\Release\ofxCvShortImage.obj
+         obj\Release\ofxMatrix4x4.obj
+         obj\Release\ofxQuaternion.obj
+         obj\Release\ofxThread.obj
+         obj\Release\ofxKinect.obj
+         obj\Release\ofxKinectCalibration.obj
+         obj\Release\ofxKinectPlayer.obj
+         obj\Release\ofxKinectRecorder.obj
+         obj\Release\tinyxml.obj
+         obj\Release\tinyxmlerror.obj
+         obj\Release\tinyxmlparser.obj
+         obj\Release\ofxXmlSettings.obj
+         obj\Release\blobTracker.obj
+         obj\Release\main.obj
+         obj\Release\guiBaseObject.obj
+         obj\Release\guiCallback.obj
+         obj\Release\guiCallbackValue.obj
+         obj\Release\guiColor.obj
+         obj\Release\guiTextBase.obj
+         obj\Release\guiType2DSlider.obj
+         obj\Release\guiTypeButtonSlider.obj
+         obj\Release\guiTypeChartPlotter.obj
+         obj\Release\guiTypeCustom.obj
+         obj\Release\guiTypeDrawable.obj
+         obj\Release\guiTypeFileLister.obj
+         obj\Release\guiTypeLabel.obj
+         obj\Release\guiTypeLogger.obj
+         obj\Release\guiTypeMultiToggle.obj
+         obj\Release\guiTypePanel.obj
+         obj\Release\guiTypeSlider.obj
+         obj\Release\guiTypeText.obj
+         obj\Release\guiTypeTextDropDown.obj
+         obj\Release\guiTypeTextInput.obj
+         obj\Release\guiTypeToggle.obj
+         obj\Release\guiTypeVairableLister.obj
+         obj\Release\guiTypeVideo.obj
+         obj\Release\guiValue.obj
+         obj\Release\ofxControlPanel.obj
+         obj\Release\simpleColor.obj
+         obj\Release\simpleFileLister.obj
+         obj\Release\simpleLogger.obj
+         obj\Release\testApp.obj
+         C:\cinder\ofX\0.062\libs\openFrameworksCompiled\lib\vs2010\openframeworksLib.lib
+         cv110.lib(cvcolor.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+         Generating code
+         Finished generating code
+         kinectExample.vcxproj -> C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\jugglinTracker02.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\jugglinTracker02.exe;#1" /manifest obj\Release\jugglinTracker02.exe.intermediate.manifest
+       PostBuildEvent:
+         Description: adding DLLs and creating data folder
+         xcopy /e /i /y "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\*.dll" "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin"
+         if not exist "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\data" mkdir  "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\data"
+         
+         xcopy /e /i /y "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs2010\*.dll" bin
+         :VCEnd
+         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\fmodex.dll
+         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\fmodexL.dll
+         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\FreeImage.dll
+         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\FreeType-6.dll
+         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\glut32.dll
+         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\Zlib.dll
+         6 File(s) copied
+         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs2010\freenect.dll
+         1 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "obj\Release\jugglinTracker02.unsuccessfulbuild".
+         Touching "obj\Release\jugglinTracker02.lastbuildstate".
+     1>Done Building Project "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\kinectExample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:31.52

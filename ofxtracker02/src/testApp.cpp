@@ -41,8 +41,8 @@ void testApp::setup() {
 	satRange2 = 129;
 	valRange2 = 31;
 	hue2 = 170;
-	sat2 = 251;
-	val2 = 251;
+	sat2 = 253;
+	val2 = 239;
 	
 	//opnecv example vars
 	bLearnBakground = true;
@@ -69,17 +69,27 @@ void testApp::setup() {
 	showCountour = true;
 	showVideo = true;
 	
+	ofxControlPanel::setBackgroundColor(simpleColor(15, 15, 15, 150));
+	ofxControlPanel::setTextColor(simpleColor(255, 255, 255, 255));
+	
 	//control panel
-	/*panel.loadFont("MONACO.TTF", 8);
-	panel.setup("cv settings", 680, 0, 330, 768);
-	panel.addPanel("control",1,false);
+	panel.loadFont("MONACO.TTF", 8);
+	panel.setup("cv settings", 640, 0, 400, 760);
+	panel.addPanel("control",2,false);
 	panel.setWhichPanel("control");
 	panel.setWhichColumn(0);
 	panel.addToggle("drawDepth", "VIDEO_DRAW_DEPTH", 0);
 	panel.addSlider("hue range ", "HUERANGE", 20, 0, 255, true);
 	panel.addSlider("sat range ", "SATRANGE", 30, 0, 255, true);
 	panel.addSlider("val range ", "VALRANGE", 25, 0, 255, true);
-	panel.loadSettings("cvSettings.xml");*/
+	
+	panel.setWhichColumn(1);
+	panel.addToggle("drawVideo", "VIDEO_DRAW_VIDEO", 1);
+	panel.addSlider("hue range2 ", "HUERANGE2", 20, 0, 255, true);
+	panel.addSlider("sat range2 ", "SATRANGE2", 30, 0, 255, true);
+	panel.addSlider("val range2 ", "VALRANGE2", 25, 0, 255, true);
+	
+	panel.loadSettings("cvSettings.xml");
 	
 	
 	
@@ -123,7 +133,7 @@ void testApp::update() {
 			if (hueDiff < -127) hueDiff += 255;
 			if (hueDiff > 127) hueDiff -= 255;
 			
-			if ( (fabs(hueDiff) < hueRange) &&
+			if ( (fabs((float)hueDiff) < hueRange) &&
 				(colorHsvPixels[i*3+1] > (sat - satRange) && colorHsvPixels[i*3+1] < (sat + satRange)) &&
 				(colorHsvPixels[i*3+2] > (val - valRange) && colorHsvPixels[i*3+2] < (val + valRange))){
 				
@@ -138,7 +148,7 @@ void testApp::update() {
 			if (hueDiff < -127) hueDiff += 255;
 			if (hueDiff > 127) hueDiff -= 255;
 			
-			if ( (fabs(hueDiff) < hueRange2) &&
+			if ( (fabs((float)hueDiff) < hueRange2) &&
 				(colorHsvPixels[i*3+1] > (sat2 - satRange2) && colorHsvPixels[i*3+1] < (sat2 + satRange2)) &&
 				(colorHsvPixels[i*3+2] > (val2 - valRange2) && colorHsvPixels[i*3+2] < (val2 + valRange2))){
 				
@@ -191,8 +201,9 @@ void testApp::update() {
 			}
 		}
 		tracker2.end();
-		
 	}
+
+	panel.update();
 }
 
 
@@ -208,12 +219,13 @@ void testApp::draw() {
 		}
 	}
 	//videoColorHSVCvImage.draw(0, 480, 160, 120);
-	//videoGrayscaleCvImage.draw(160,480,160,120);
-	
+	videoGrayscaleCvImage.draw(0,480,160,120);
+	videoGrayscaleCvImage2.draw(160,480,160,120);
 	/*videoColorHSVCvImage.draw(0, 480, 160, 120);
 	videoGrayscaleHueImage.draw(160,480,160,120);
 	videoGrayscaleSatImage.draw(320,480, 160, 120);
 	videoGrayscaleBriImage.draw(480,480,160,120);*/
+	//vector float distZ;
 	
 	int i;
 	
@@ -236,13 +248,16 @@ void testApp::draw() {
 		}
 		
 	} else {
+		float dist;
 		if(trackedBlobs.size() > 0){
 			for (i = 0; i < trackedBlobs.size(); i++) {
 				ofSetColor(0x0000FF);
 				ofFill();
 				ofCircle(trackedBlobs[i].centroid.x, trackedBlobs[i].centroid.y, 4);
 				ofSetColor(0xFFFFFF);
-				ofDrawBitmapString(ofToString(i,0), trackedBlobs[i].centroid.x+20, trackedBlobs[i].centroid.y+20);
+				dist = getDistance(trackedBlobs[i].centroid.x,trackedBlobs[i].centroid.y);
+				ofDrawBitmapString(ofToString(i,0), trackedBlobs[i].centroid.x+10, trackedBlobs[i].centroid.y+20);
+				ofDrawBitmapString(ofToString(dist,0), trackedBlobs[i].centroid.x+25, trackedBlobs[i].centroid.y+20);
 			}
 		}
 		if (trackedBlobs2.size() > 0) {
@@ -250,8 +265,10 @@ void testApp::draw() {
 				ofSetColor(0x00FFFF);
 				ofFill();
 				ofCircle(trackedBlobs2[i].centroid.x, trackedBlobs2[i].centroid.y, 4);
+				dist = getDistance(trackedBlobs2[i].centroid.x,trackedBlobs2[i].centroid.y);
 				ofSetColor(0xFFFFFF);
-				ofDrawBitmapString(ofToString(i+2,0), trackedBlobs2[i].centroid.x+20, trackedBlobs2[i].centroid.y+20);
+				ofDrawBitmapString(ofToString(i+2,0), trackedBlobs2[i].centroid.x+10, trackedBlobs2[i].centroid.y+20);
+				ofDrawBitmapString(ofToString(dist,0), trackedBlobs2[i].centroid.x+25, trackedBlobs2[i].centroid.y+20);
 			}
 		}
 	}
@@ -315,10 +332,10 @@ void testApp::draw() {
 	ofSetColor(0xffffff);
 	ofDrawBitmapString(reportStream.str(), 20, 630);
 	
-	//panel.draw();
+	panel.draw();
 }
 
-void testApp::drawPointCloud() {
+/*void testApp::drawPointCloud() {
 	ofScale(400, 400, 400);
 	int w = 640;
 	int h = 480;
@@ -335,12 +352,30 @@ void testApp::drawPointCloud() {
 		}
 	}
 	glEnd();
-}
+}*/
 
 //--------------------------------------------------------------
 void testApp::exit() {
 	kinect.setCameraTiltAngle(0); // zero the tilt on exit
 	kinect.close();
+}
+
+//--------------------------------------------------------------
+float testApp::getDistance(int x, int y) {
+	int i, j;
+	float tempDist, dist;
+	
+	dist = 500000.0f;
+	for (i = x - 30; i < x; i++) {
+		for(j = y - 30; j < y; j++) {
+			tempDist = kinect.getDistanceAt(x, y);
+			if(tempDist < dist && tempDist > 0) {
+				dist = tempDist;
+			}
+		}
+	} 
+
+	return dist;
 }
 
 //--------------------------------------------------------------
@@ -464,7 +499,9 @@ void testApp::mouseMoved(int x, int y) {
 
 //--------------------------------------------------------------
 void testApp::mouseDragged(int x, int y, int button)
-{}
+{
+	panel.mouseDragged(x, y, button);
+}
 
 //--------------------------------------------------------------
 void testApp::mousePressed(int x, int y, int button)
@@ -476,11 +513,14 @@ void testApp::mousePressed(int x, int y, int button)
 		val = videoGrayscaleBriImage.getPixels()[pixel];
 		
 	}
+	panel.mousePressed(x, y, button);
 }
 
 //--------------------------------------------------------------
 void testApp::mouseReleased(int x, int y, int button)
-{}
+{
+	panel.mouseReleased();
+}
 
 //--------------------------------------------------------------
 void testApp::windowResized(int w, int h)

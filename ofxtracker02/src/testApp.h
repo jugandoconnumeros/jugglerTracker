@@ -23,6 +23,7 @@ class testApp : public ofBaseApp {
 		void mouseReleased(int x, int y, int button);
 		void windowResized(int w, int h);
 		
+		float getDistance(int x, int y);
 		//int getGrayColor(int i, int h, int s, int v, int hRange, int sRange, int vRange);
 		
 	
@@ -89,12 +90,12 @@ class testApp : public ofBaseApp {
 		blobTracker tracker;
 		blobTracker tracker2;
 	
-			//vector is like an array - but it is more flexible
-			//think of a vector as a c++ array
+		//vector is like an array - but it is more flexible
+		//think of a vector as a c++ array
 		vector <trackedBlob> trackedBlobs;
 		vector <trackedBlob> trackedBlobs2;
 		int distanceThresh;
 	
-	// create a variable of the typSe ofImage
-	//ofxControlPanel			panel;
+		// create a variable of the typSe ofImage
+		//ofxControlPanel			panel;
 };
