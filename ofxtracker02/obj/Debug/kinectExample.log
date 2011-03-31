@@ -1,66 +1,12 @@
-﻿Build started 3/22/2011 11:09:30 PM.
+﻿Build started 3/24/2011 9:13:32 PM.
      1>Project "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\kinectExample.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "obj\Debug\jugglinTracker02.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxVectorMath\src /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxControlPanel\src\ofxControlPanel\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\addons\ofxDirList\src\ofxDirList.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp ..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp ..\..\..\addons\ofxVectorMath\src\ofxMatrix4x4.cpp ..\..\..\addons\ofxVectorMath\src\ofxQuaternion.cpp ..\..\..\addons\ofxThread\src\ofxThread.cpp ..\..\..\addons\ofxKinect\src\ofxKinect.cpp ..\..\..\addons\ofxKinect\src\ofxKinectCalibration.cpp ..\..\..\addons\ofxKinect\src\ofxKinectPlayer.cpp ..\..\..\addons\ofxKinect\src\ofxKinectRecorder.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp ..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp ..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp src\blobTracker.cpp src\main.cpp src\ofxControlPanel\src\guiBaseObject.cpp src\ofxControlPanel\src\guiCallback.cpp src\ofxControlPanel\src\guiCallbackValue.cpp src\ofxControlPanel\src\guiColor.cpp src\ofxControlPanel\src\guiTextBase.cpp src\ofxControlPanel\src\guiType2DSlider.cpp src\ofxControlPanel\src\guiTypeButtonSlider.cpp src\ofxControlPanel\src\guiTypeChartPlotter.cpp src\ofxControlPanel\src\guiTypeCustom.cpp src\ofxControlPanel\src\guiTypeDrawable.cpp src\ofxControlPanel\src\guiTypeFileLister.cpp src\ofxControlPanel\src\guiTypeLabel.cpp src\ofxControlPanel\src\guiTypeLogger.cpp src\ofxControlPanel\src\guiTypeMultiToggle.cpp src\ofxControlPanel\src\guiTypePanel.cpp src\ofxControlPanel\src\guiTypeSlider.cpp src\ofxControlPanel\src\guiTypeText.cpp src\ofxControlPanel\src\guiTypeTextDropDown.cpp src\ofxControlPanel\src\guiTypeTextInput.cpp src\ofxControlPanel\src\guiTypeToggle.cpp src\ofxControlPanel\src\guiTypeVairableLister.cpp src\ofxControlPanel\src\guiTypeVideo.cpp src\ofxControlPanel\src\guiValue.cpp src\ofxControlPanel\src\ofxControlPanel.cpp src\ofxControlPanel\src\simpleColor.cpp src\ofxControlPanel\src\simpleFileLister.cpp src\ofxControlPanel\src\simpleLogger.cpp src\testApp.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxVectorMath\src /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxControlPanel\src\ofxControlPanel\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Debug\\" /Fd"obj\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\testApp.cpp
          testApp.cpp
-         simpleLogger.cpp
-         simpleFileLister.cpp
-         simpleColor.cpp
-         ofxControlPanel.cpp
-         guiValue.cpp
-         guiTypeVideo.cpp
-         guiTypeVairableLister.cpp
-         guiTypeToggle.cpp
-         guiTypeTextInput.cpp
-         guiTypeTextDropDown.cpp
-         guiTypeText.cpp
-         guiTypeSlider.cpp
-         guiTypePanel.cpp
-         guiTypeMultiToggle.cpp
-         guiTypeLogger.cpp
-         guiTypeLabel.cpp
-         guiTypeFileLister.cpp
-         guiTypeDrawable.cpp
-         guiTypeCustom.cpp
-         Generating Code...
-     1>c:\cinder\ofx\0.062\apps\myapps\ofxtracker02\src\ofxcontrolpanel\src\simplelogger.cpp(113): warning C4700: uninitialized local variable 'yPos' used
-     1>c:\cinder\ofx\0.062\apps\myapps\ofxtracker02\src\ofxcontrolpanel\src\simplelogger.cpp(125): warning C4700: uninitialized local variable 'yPos' used
-         Compiling...
-         guiTypeChartPlotter.cpp
-         guiTypeButtonSlider.cpp
-         guiType2DSlider.cpp
-         guiTextBase.cpp
-         guiColor.cpp
-         guiCallbackValue.cpp
-         guiCallback.cpp
-         guiBaseObject.cpp
-         main.cpp
-         blobTracker.cpp
-         ofxXmlSettings.cpp
-         tinyxmlparser.cpp
-         tinyxmlerror.cpp
-         tinyxml.cpp
-         ofxKinectRecorder.cpp
-         ofxKinectPlayer.cpp
-         ofxKinectCalibration.cpp
-         ofxKinect.cpp
-         ofxThread.cpp
-         ofxQuaternion.cpp
-         Generating Code...
-         Compiling...
-         ofxMatrix4x4.cpp
-         ofxCvShortImage.cpp
-         ofxCvImage.cpp
-         ofxCvGrayscaleImage.cpp
-         ofxCvFloatImage.cpp
-         ofxCvContourFinder.cpp
-         ofxCvColorImage.cpp
-         ofxDirList.cpp
-         Generating Code...
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"obj\Debug\jugglinTracker02_debug.exe.embed.manifest.res" obj\Debug\jugglinTracker02_debug_manifest.rc 
+         All outputs are up-to-date.
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\jugglinTracker02_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\FreeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\glee\lib\vs2010 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\openFrameworksCompiled\lib\vs2010 /LIBPATH:..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010 /LIBPATH:..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs2010 openframeworksLibDebug.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib glut32.lib rtAudioD.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib GLee.lib fmodex_vc.lib glu32.lib PocoFoundationmtd.lib PocoNetmtd.lib PocoUtilmtd.lib PocoXMLmtd.lib Ws2_32.lib cv110d.lib cvaux110d.lib cxcore110d.lib freenect.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"obj\Debug\jugglinTracker02_debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\jugglinTracker02_debug_debugInfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\jugglinTracker02_debug.lib" /MACHINE:X86 obj\Debug\jugglinTracker02_debug.exe.embed.manifest.res
          obj\Debug\ofxDirList.obj
@@ -180,124 +126,9 @@
      1>cxcore110d.lib(cxutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxutils.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"obj\Debug\jugglinTracker02_debug.exe.embed.manifest" /manifest obj\Debug\jugglinTracker02_debug.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"obj\Debug\jugglinTracker02_debug.exe.embed.manifest.res" obj\Debug\jugglinTracker02_debug_manifest.rc 
+         All outputs are up-to-date.
        LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\jugglinTracker02_debug.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\libs\glut\lib\vs2010 /LIBPATH:..\..\..\libs\rtAudio\lib\vs2010 /LIBPATH:..\..\..\libs\FreeImage\lib\vs2010 /LIBPATH:..\..\..\libs\freetype\lib\vs2010 /LIBPATH:..\..\..\libs\quicktime\lib\vs2010 /LIBPATH:..\..\..\libs\fmodex\lib\vs2010 /LIBPATH:..\..\..\libs\videoInput\lib\vs2010 /LIBPATH:..\..\..\libs\glee\lib\vs2010 /LIBPATH:..\..\..\libs\glu\lib\vs2010 /LIBPATH:..\..\..\libs\Poco\lib\vs2010 /LIBPATH:..\..\..\libs\openFrameworksCompiled\lib\vs2010 /LIBPATH:..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs2010 /LIBPATH:..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs2010 openframeworksLibDebug.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib glut32.lib rtAudioD.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib GLee.lib fmodex_vc.lib glu32.lib PocoFoundationmtd.lib PocoNetmtd.lib PocoUtilmtd.lib PocoXMLmtd.lib Ws2_32.lib cv110d.lib cvaux110d.lib cxcore110d.lib freenect.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"obj\Debug\jugglinTracker02_debug.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\jugglinTracker02_debug_debugInfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\jugglinTracker02_debug.lib" /MACHINE:X86 obj\Debug\jugglinTracker02_debug.exe.embed.manifest.res
-         obj\Debug\ofxDirList.obj
-         obj\Debug\ofxCvColorImage.obj
-         obj\Debug\ofxCvContourFinder.obj
-         obj\Debug\ofxCvFloatImage.obj
-         obj\Debug\ofxCvGrayscaleImage.obj
-         obj\Debug\ofxCvImage.obj
-         obj\Debug\ofxCvShortImage.obj
-         obj\Debug\ofxMatrix4x4.obj
-         obj\Debug\ofxQuaternion.obj
-         obj\Debug\ofxThread.obj
-         obj\Debug\ofxKinect.obj
-         obj\Debug\ofxKinectCalibration.obj
-         obj\Debug\ofxKinectPlayer.obj
-         obj\Debug\ofxKinectRecorder.obj
-         obj\Debug\tinyxml.obj
-         obj\Debug\tinyxmlerror.obj
-         obj\Debug\tinyxmlparser.obj
-         obj\Debug\ofxXmlSettings.obj
-         obj\Debug\blobTracker.obj
-         obj\Debug\main.obj
-         obj\Debug\guiBaseObject.obj
-         obj\Debug\guiCallback.obj
-         obj\Debug\guiCallbackValue.obj
-         obj\Debug\guiColor.obj
-         obj\Debug\guiTextBase.obj
-         obj\Debug\guiType2DSlider.obj
-         obj\Debug\guiTypeButtonSlider.obj
-         obj\Debug\guiTypeChartPlotter.obj
-         obj\Debug\guiTypeCustom.obj
-         obj\Debug\guiTypeDrawable.obj
-         obj\Debug\guiTypeFileLister.obj
-         obj\Debug\guiTypeLabel.obj
-         obj\Debug\guiTypeLogger.obj
-         obj\Debug\guiTypeMultiToggle.obj
-         obj\Debug\guiTypePanel.obj
-         obj\Debug\guiTypeSlider.obj
-         obj\Debug\guiTypeText.obj
-         obj\Debug\guiTypeTextDropDown.obj
-         obj\Debug\guiTypeTextInput.obj
-         obj\Debug\guiTypeToggle.obj
-         obj\Debug\guiTypeVairableLister.obj
-         obj\Debug\guiTypeVideo.obj
-         obj\Debug\guiValue.obj
-         obj\Debug\ofxControlPanel.obj
-         obj\Debug\simpleColor.obj
-         obj\Debug\simpleFileLister.obj
-         obj\Debug\simpleLogger.obj
-         obj\Debug\testApp.obj
-         C:\cinder\ofX\0.062\libs\openFrameworksCompiled\lib\vs2010\openframeworksLibDebug.lib
-     1>ofxDirList.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
-     1>rtAudioD.lib(rtAudio.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'rtAudioD.lib(rtAudio.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(AtomicCounter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(AtomicCounter.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(Bugcheck.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Bugcheck.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(Debugger.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Debugger.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(Exception.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Exception.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(Mutex.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Mutex.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(RWLock.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(RWLock.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(Timestamp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Timestamp.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(ASCIIEncoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(ASCIIEncoding.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(Latin1Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Latin1Encoding.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(Latin9Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Latin9Encoding.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(TextConverter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextConverter.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(TextEncoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextEncoding.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(TextIterator.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(TextIterator.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(UnicodeConverter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UnicodeConverter.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(UTF16Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UTF16Encoding.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(UTF8Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(UTF8Encoding.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>PocoFoundationmtd.lib(Windows1252Encoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'PocoFoundationmtd.lib(Windows1252Encoding.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvaccum.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvaccum.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvadapthresh.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvadapthresh.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvapprox.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvapprox.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvcolor.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvcolor.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvcontours.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvcontours.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvfilter.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvfilter.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvgeometry.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvgeometry.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvhistogram.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvhistogram.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvimgwarp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvimgwarp.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvmoments.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvmoments.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvmorph.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvmorph.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvshapedescr.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvshapedescr.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvsmooth.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvsmooth.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvsumpixels.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvsumpixels.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvtables.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvtables.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvtemplmatch.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvtemplmatch.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvthresh.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvthresh.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvundistort.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvundistort.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cv110d.lib(cvutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cv110d.lib(cvutils.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxalloc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxalloc.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxarithm.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxarithm.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxarray.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxarray.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxcmp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxcmp.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxconvert.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxconvert.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxcopy.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxcopy.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxdatastructs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdatastructs.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxdrawing.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdrawing.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxdxt.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxdxt.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxerror.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxerror.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxjacobieigens.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxjacobieigens.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxlogic.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxlogic.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxlut.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxlut.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxmathfuncs.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmathfuncs.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxmatmul.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmatmul.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxmatrix.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmatrix.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxmean.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmean.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxmeansdv.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxmeansdv.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxminmaxloc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxminmaxloc.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxnorm.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxnorm.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxouttext.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxouttext.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxpersistence.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxpersistence.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxrand.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxrand.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxsumpixels.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxsumpixels.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxsvd.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxsvd.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxswitcher.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxswitcher.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxtables.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxtables.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
-     1>cxcore110d.lib(cxutils.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'cxcore110d.lib(cxutils.obj)' or at 'C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\vc100.pdb'; linking object as if no debug info
+         All outputs are up-to-date.
          kinectExample.vcxproj -> C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\jugglinTracker02_debug.exe
        PostBuildEvent:
          Description: adding DLLs and creating data folder
@@ -322,4 +153,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:04:55.03
+Time Elapsed 00:00:18.86

@@ -51,7 +51,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..\..\..\libs\openFrameworks;..\..\..\libs\openFrameworks\graphics;..\..\..\libs\openFrameworks\app;..\..\..\libs\openFrameworks\sound;..\..\..\libs\openFrameworks\utils;..\..\..\libs\openFrameworks\communication;..\..\..\libs\openFrameworks\video;..\..\..\libs\openFrameworks\events;..\..\..\libs\glut\include;..\..\..\libs\rtAudio\include;..\..\..\libs\quicktime\include;..\..\..\libs\freetype\include;..\..\..\libs\freetype\include\freetype2;..\..\..\libs\freeImage\include;..\..\..\libs\fmodex\include;..\..\..\libs\videoInput\include;..\..\..\libs\glee\include;..\..\..\libs\glu\include;..\..\..\libs\poco\include;..\..\..\addons;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxThread\src;..\..\..\addons\ofxVectorMath\src;..\..\..\addons\ofxKinect\src;..\..\..\addons\ofxKinect\libs\libfreenect;..\..\..\addons\ofxDirList\src;..\..\..\addons\ofxXmlSettings\src;..\..\..\addons\ofxXmlSettings\libs;..\..\..\addons\ofxControlPanel\src\ofxControlPanel\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\libs\openFrameworks;..\..\..\libs\openFrameworks\graphics;..\..\..\libs\openFrameworks\app;..\..\..\libs\openFrameworks\sound;..\..\..\libs\openFrameworks\utils;..\..\..\libs\openFrameworks\communication;..\..\..\libs\openFrameworks\video;..\..\..\libs\openFrameworks\events;..\..\..\libs\glut\include;..\..\..\libs\rtAudio\include;..\..\..\libs\quicktime\include;..\..\..\libs\freetype\include;..\..\..\libs\freetype\include\freetype2;..\..\..\libs\freeImage\include;..\..\..\libs\fmodex\include;..\..\..\libs\videoInput\include;..\..\..\libs\glee\include;..\..\..\libs\glu\include;..\..\..\libs\poco\include;..\..\..\addons;..\..\..\addons\ofxNetwork\src;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxKinect\src;..\..\..\addons\ofxKinect\libs\libfreenect;..\..\..\addons\ofxObjLoader\src;..\..\..\addons\ofxThread\src;..\..\..\addons\ofxDirList\src;..\..\..\addons\ofxXmlSettings\src;..\..\..\addons\ofxXmlSettings\libs;..\..\..\addons\ofxOsc\src;..\..\..\addons\ofxOsc\libs\oscpack\include\ip;..\..\..\addons\ofxOsc\libs\oscpack\include\osc;..\..\..\addons\ofx3DModelLoader\src;..\..\..\addons\ofx3DModelLoader\src\3DS;..\..\..\addons\ofxVectorGraphics\src;..\..\..\addons\ofxVectorGraphics\libs;..\..\..\addons\ofxVectorMath\src;src\ofxControlPanel\src%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;POCO_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -85,7 +85,7 @@ xcopy /e /i /y "$(ProjectDir)..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs20
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>..\..\..\libs\openFrameworks;..\..\..\libs\openFrameworks\graphics;..\..\..\libs\openFrameworks\app;..\..\..\libs\openFrameworks\sound;..\..\..\libs\openFrameworks\utils;..\..\..\libs\openFrameworks\communication;..\..\..\libs\openFrameworks\video;..\..\..\libs\openFrameworks\events;..\..\..\libs\glut\include;..\..\..\libs\rtAudio\include;..\..\..\libs\quicktime\include;..\..\..\libs\freetype\include;..\..\..\libs\freetype\include\freetype2;..\..\..\libs\freeImage\include;..\..\..\libs\fmodex\include;..\..\..\libs\videoInput\include;..\..\..\libs\glee\include;..\..\..\libs\glu\include;..\..\..\libs\poco\include;..\..\..\addons;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxThread\src;..\..\..\addons\ofxVectorMath\src;..\..\..\addons\ofxKinect\src;..\..\..\addons\ofxKinect\libs\libfreenect;..\..\..\addons\ofxDirList\src;..\..\..\addons\ofxXmlSettings\src;..\..\..\addons\ofxXmlSettings\libs;..\..\..\addons\ofxControlPanel\src\ofxControlPanel\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\..\libs\openFrameworks;..\..\..\libs\openFrameworks\graphics;..\..\..\libs\openFrameworks\app;..\..\..\libs\openFrameworks\sound;..\..\..\libs\openFrameworks\utils;..\..\..\libs\openFrameworks\communication;..\..\..\libs\openFrameworks\video;..\..\..\libs\openFrameworks\events;..\..\..\libs\glut\include;..\..\..\libs\rtAudio\include;..\..\..\libs\quicktime\include;..\..\..\libs\freetype\include;..\..\..\libs\freetype\include\freetype2;..\..\..\libs\freeImage\include;..\..\..\libs\fmodex\include;..\..\..\libs\videoInput\include;..\..\..\libs\glee\include;..\..\..\libs\glu\include;..\..\..\libs\poco\include;..\..\..\addons;..\..\..\addons\ofxNetwork\src;..\..\..\addons\ofxOpenCv\src;..\..\..\addons\ofxOpenCv\libs\opencv\include;..\..\..\addons\ofxKinect\src;..\..\..\addons\ofxKinect\libs\libfreenect;..\..\..\addons\ofxObjLoader\src;..\..\..\addons\ofxThread\src;..\..\..\addons\ofxDirList\src;..\..\..\addons\ofxXmlSettings\src;..\..\..\addons\ofxXmlSettings\libs;..\..\..\addons\ofxOsc\src;..\..\..\addons\ofxOsc\libs\oscpack\include\ip;..\..\..\addons\ofxOsc\libs\oscpack\include\osc;..\..\..\addons\ofx3DModelLoader\src;..\..\..\addons\ofx3DModelLoader\src\3DS;..\..\..\addons\ofxVectorGraphics\src;..\..\..\addons\ofxVectorGraphics\libs;..\..\..\addons\ofxVectorMath\src;src\ofxControlPanel\src%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;POCO_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>
@@ -125,6 +125,10 @@ xcopy /e /i /y "$(ProjectDir)..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs20
     <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp" />
     <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp" />
     <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp" />
     <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix4x4.cpp" />
     <ClCompile Include="..\..\..\addons\ofxVectorMath\src\ofxQuaternion.cpp" />
     <ClCompile Include="..\..\..\addons\ofxThread\src\ofxThread.cpp" />
@@ -165,6 +169,8 @@ xcopy /e /i /y "$(ProjectDir)..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs20
     <ClCompile Include="src\ofxControlPanel\src\simpleColor.cpp" />
     <ClCompile Include="src\ofxControlPanel\src\simpleFileLister.cpp" />
     <ClCompile Include="src\ofxControlPanel\src\simpleLogger.cpp" />
+    <ClCompile Include="src\oscTrackingReceiver.cpp" />
+    <ClCompile Include="src\oscTrackingSender.cpp" />
     <ClCompile Include="src\testApp.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +185,12 @@ xcopy /e /i /y "$(ProjectDir)..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs20
     <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvMain.h" />
     <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h" />
     <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOsc.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscArg.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscBundle.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscMessage.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h" />
+    <ClInclude Include="..\..\..\addons\ofxOsc\src\ofxOscSender.h" />
     <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxMatrix3x3.h" />
     <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint2f.h" />
     <ClInclude Include="..\..\..\addons\ofxVectorMath\src\ofxPoint3f.h" />
@@ -229,6 +241,8 @@ xcopy /e /i /y "$(ProjectDir)..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs20
     <ClInclude Include="src\ofxControlPanel\src\simpleColor.h" />
     <ClInclude Include="src\ofxControlPanel\src\simpleFileLister.h" />
     <ClInclude Include="src\ofxControlPanel\src\simpleLogger.h" />
+    <ClInclude Include="src\oscTrackingReceiver.h" />
+    <ClInclude Include="src\oscTrackingSender.h" />
     <ClInclude Include="src\testApp.h" />
     <ClInclude Include="src\trackedBlob.h" />
   </ItemGroup>

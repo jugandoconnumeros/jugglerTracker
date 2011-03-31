@@ -44,6 +44,7 @@ public:
 		activity        = 0;
 		assigned        = false;
 		bNew			= true;
+		z				= 50000;
 	}
 	
 	//---------------------------------------------
@@ -53,5 +54,6 @@ public:
 	float activity;
 	bool  assigned;
 	bool  bNew;
+	int	  z;
 	
 };

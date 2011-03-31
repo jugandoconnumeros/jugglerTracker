@@ -1,11 +1,14 @@
 #pragma once
-
 #include "ofMain.h"
-#include "ofAddons.h"
+//#include "ofAddons.h"
 #include "ofxOpenCv.h"
 #include "ofxKinect.h"
 #include "ofxControlPanel.h"
 #include "blobTracker.h"
+#include "ofxOsc.h"
+#include "oscTrackingSender.h"
+//#include "oscTrackingReceiver.h"
+#include "colorTracker.h"
 
 class testApp : public ofBaseApp {
 	public:
@@ -23,6 +26,8 @@ class testApp : public ofBaseApp {
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
 		void windowResized(int w, int h);
+		void connectOsc();
+		void sendOscPacket();
 		void eventsIn(guiCallbackData & data);
 
 		float getDistance(int x, int y);
@@ -42,32 +47,26 @@ class testApp : public ofBaseApp {
 	
 		ofxCvGrayscaleImage		videoGrayscaleHueImage;
 		ofxCvGrayscaleImage		videoGrayscaleSatImage;
-		ofxCvGrayscaleImage		videoGrayscaleBriImage;
-	
-		unsigned char *			grayPixels;
-		unsigned char *			grayPixels2;
-	
-		ofxCvGrayscaleImage		videoGrayscaleCvImage;
-		ofxCvGrayscaleImage		videoGrayscaleCvImage2;
-	
-		// for tracking...
-		int hue, sat, val;
-		int hueRange, satRange, valRange;
-	
-		// for tracking2nd color...
-		int hue2, sat2, val2;
-		int hueRange2, satRange2, valRange2;
-	
+		ofxCvGrayscaleImage		videoGrayscaleBriImage;	
 		
 		bool				bThreshWithOpenCV;
 		bool				drawPC;
 		bool				drawDepth;
+		bool				drawBlobs;
+		int					captureColor;
+		bool				useTracker1;
+		bool				useTracker2;
+		bool				useTracker3;
+		bool				useTracker4;
+		bool				oscConnected;
+		bool				normalizaData;
 
 		int 				nearThreshold;
 		int					farThreshold;
 
+
 		int					angle;
-		int					areaTreshold;
+		
 		double				tempArea;
 	
 		
@@ -75,8 +74,8 @@ class testApp : public ofBaseApp {
 	
 		ofxCvGrayscaleImage 	grayBg;
 		ofxCvGrayscaleImage 	grayDiff;
-		ofxCvContourFinder		contourFinder;
-		ofxCvContourFinder		contourFinder2;
+		
+
 	
 		int 				threshold;
 		bool				bLearnBakground;
@@ -88,18 +87,17 @@ class testApp : public ofBaseApp {
 		ofxControlPanel		panel;
 		ofTrueTypeFont		TTF;
 	
-		//variables para blob tracking
-		blobTracker tracker;
-		blobTracker tracker2;
-	
-		//vector is like an array - but it is more flexible
-		//think of a vector as a c++ array
-		vector <trackedBlob> trackedBlobs;
-		vector <trackedBlob> trackedBlobs2;
-		int distanceThresh;
-	
-		// create a variable of the typSe ofImage
-		//ofxControlPanel			panel;
-
 		
+		OscTrackingSender	sender;
+	
+	// CHRIS GUI STUFF
+	guiTypeTextInput * guiIpInput;
+	guiTypeTextInput * guiPortInput;
+	
+	colorTracker		cTrack0;
+	colorTracker		cTrack1;
+	colorTracker		cTrack2;
+	colorTracker		cTrack3;
+	
+	
 };

@@ -1,10 +1,18 @@
-﻿Build started 3/22/2011 11:14:32 PM.
+﻿Build started 3/25/2011 8:21:19 PM.
      1>Project "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\kinectExample.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
-         Creating "obj\Release\jugglinTracker02.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "obj\Release\jugglinTracker02.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxVectorMath\src /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxControlPanel\src\ofxControlPanel\src /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp src\testApp.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glee\include /I..\..\..\libs\glu\include /I..\..\..\libs\poco\include /I..\..\..\addons /I..\..\..\addons\ofxNetwork\src /I..\..\..\addons\ofxOpenCv\src /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxKinect\src /I..\..\..\addons\ofxKinect\libs\libfreenect /I..\..\..\addons\ofxObjLoader\src /I..\..\..\addons\ofxThread\src /I..\..\..\addons\ofxDirList\src /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxOsc\src /I..\..\..\addons\ofxOsc\libs\oscpack\include\ip /I..\..\..\addons\ofxOsc\libs\oscpack\include\osc /I..\..\..\addons\ofx3DModelLoader\src /I..\..\..\addons\ofx3DModelLoader\src\3DS /I..\..\..\addons\ofxVectorGraphics\src /I..\..\..\addons\ofxVectorGraphics\libs /I..\..\..\addons\ofxVectorMath\src /Isrc\ofxControlPanel\src /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp ..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp ..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp ..\..\..\addons\ofxOsc\src\ofxOscSender.cpp src\main.cpp src\oscTrackingReceiver.cpp src\oscTrackingSender.cpp src\testApp.cpp
+         ofxOscBundle.cpp
+         ofxOscMessage.cpp
+     1>..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp(92): warning C4244: 'return' : conversion from 'float' to 'gint32_t', possible loss of data
+     1>..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp(112): warning C4244: 'return' : conversion from 'gint32_t' to 'float', possible loss of data
+         ofxOscReceiver.cpp
+         ofxOscSender.cpp
          main.cpp
+         oscTrackingReceiver.cpp
+         oscTrackingSender.cpp
          testApp.cpp
          Generating Code...
        Link:
@@ -15,6 +23,10 @@
          obj\Release\ofxCvGrayscaleImage.obj
          obj\Release\ofxCvImage.obj
          obj\Release\ofxCvShortImage.obj
+         obj\Release\ofxOscBundle.obj
+         obj\Release\ofxOscMessage.obj
+         obj\Release\ofxOscReceiver.obj
+         obj\Release\ofxOscSender.obj
          obj\Release\ofxMatrix4x4.obj
          obj\Release\ofxQuaternion.obj
          obj\Release\ofxThread.obj
@@ -55,35 +67,53 @@
          obj\Release\simpleColor.obj
          obj\Release\simpleFileLister.obj
          obj\Release\simpleLogger.obj
+         obj\Release\oscTrackingReceiver.obj
+         obj\Release\oscTrackingSender.obj
          obj\Release\testApp.obj
          C:\cinder\ofX\0.062\libs\openFrameworksCompiled\lib\vs2010\openframeworksLib.lib
          cv110.lib(cvcolor.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
-         Generating code
-         Finished generating code
-         kinectExample.vcxproj -> C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\jugglinTracker02.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\jugglinTracker02.exe;#1" /manifest obj\Release\jugglinTracker02.exe.intermediate.manifest
-       PostBuildEvent:
-         Description: adding DLLs and creating data folder
-         xcopy /e /i /y "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\*.dll" "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin"
-         if not exist "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\data" mkdir  "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\bin\data"
-         
-         xcopy /e /i /y "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs2010\*.dll" bin
-         :VCEnd
-         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\fmodex.dll
-         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\fmodexL.dll
-         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\FreeImage.dll
-         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\FreeType-6.dll
-         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\glut32.dll
-         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\export\vs2010\Zlib.dll
-         6 File(s) copied
-         C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\..\..\..\addons\ofxKinect\libs\libfreenect\lib\vs2010\freenect.dll
-         1 File(s) copied
-       FinalizeBuildStatus:
-         Deleting file "obj\Release\jugglinTracker02.unsuccessfulbuild".
-         Touching "obj\Release\jugglinTracker02.lastbuildstate".
-     1>Done Building Project "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\kinectExample.vcxproj" (build target(s)).
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "private: void __thiscall osc::ReceivedMessageArgumentIterator::Advance(void)" (?Advance@ReceivedMessageArgumentIterator@osc@@AAEXXZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: __thiscall SocketReceiveMultiplexer::~SocketReceiveMultiplexer(void)" (??1SocketReceiveMultiplexer@@QAE@XZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall UdpSocket::~UdpSocket(void)" (??1UdpSocket@@UAE@XZ)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall UdpSocket::~UdpSocket(void)" (??1UdpSocket@@UAE@XZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: void __thiscall SocketReceiveMultiplexer::AttachSocketListener(class UdpSocket *,class PacketListener *)" (?AttachSocketListener@SocketReceiveMultiplexer@@QAEXPAVUdpSocket@@PAVPacketListener@@@Z)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: void __thiscall UdpSocket::Bind(class IpEndpointName const &)" (?Bind@UdpSocket@@QAEXABVIpEndpointName@@@Z)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: __thiscall SocketReceiveMultiplexer::SocketReceiveMultiplexer(void)" (??0SocketReceiveMultiplexer@@QAE@XZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: __thiscall UdpSocket::UdpSocket(void)" (??0UdpSocket@@QAE@XZ)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: __thiscall UdpSocket::UdpSocket(void)" (??0UdpSocket@@QAE@XZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: void __thiscall SocketReceiveMultiplexer::DetachSocketListener(class UdpSocket *,class PacketListener *)" (?DetachSocketListener@SocketReceiveMultiplexer@@QAEXPAVUdpSocket@@PAVPacketListener@@@Z)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: void __thiscall SocketReceiveMultiplexer::Run(void)" (?Run@SocketReceiveMultiplexer@@QAEXXZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: void __thiscall SocketReceiveMultiplexer::AsynchronousBreak(void)" (?AsynchronousBreak@SocketReceiveMultiplexer@@QAEXXZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: long __thiscall osc::ReceivedBundleElement::Size(void)const " (?Size@ReceivedBundleElement@osc@@QBEJXZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: __thiscall osc::ReceivedMessage::ReceivedMessage(class osc::ReceivedPacket const &)" (??0ReceivedMessage@osc@@QAE@ABVReceivedPacket@1@@Z)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: __thiscall osc::ReceivedBundle::ReceivedBundle(class osc::ReceivedPacket const &)" (??0ReceivedBundle@osc@@QAE@ABVReceivedPacket@1@@Z)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: bool __thiscall osc::ReceivedPacket::IsBundle(void)const " (?IsBundle@ReceivedPacket@osc@@QBE_NXZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: __thiscall osc::ReceivedMessage::ReceivedMessage(class osc::ReceivedBundleElement const &)" (??0ReceivedMessage@osc@@QAE@ABVReceivedBundleElement@1@@Z)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: __thiscall osc::ReceivedBundle::ReceivedBundle(class osc::ReceivedBundleElement const &)" (??0ReceivedBundle@osc@@QAE@ABVReceivedBundleElement@1@@Z)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: bool __thiscall osc::ReceivedBundleElement::IsBundle(void)const " (?IsBundle@ReceivedBundleElement@osc@@QBE_NXZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: float __thiscall osc::ReceivedMessageArgument::AsFloatUnchecked(void)const " (?AsFloatUnchecked@ReceivedMessageArgument@osc@@QBEMXZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: long __thiscall osc::ReceivedMessageArgument::AsInt32Unchecked(void)const " (?AsInt32Unchecked@ReceivedMessageArgument@osc@@QBEJXZ)
+     1>ofxOscReceiver.obj : error LNK2001: unresolved external symbol "public: void __thiscall IpEndpointName::AddressAsString(char *)const " (?AddressAsString@IpEndpointName@@QBEXPAD@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "private: static unsigned long __cdecl IpEndpointName::GetHostByName(char const *)" (?GetHostByName@IpEndpointName@@CAKPBD@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: void __thiscall UdpSocket::Connect(class IpEndpointName const &)" (?Connect@UdpSocket@@QAEXABVIpEndpointName@@@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: class osc::OutboundPacketStream & __thiscall osc::OutboundPacketStream::operator<<(struct osc::MessageTerminator const &)" (??6OutboundPacketStream@osc@@QAEAAV01@ABUMessageTerminator@1@@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "struct osc::MessageTerminator osc::EndMessage" (?EndMessage@osc@@3UMessageTerminator@1@A)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: class osc::OutboundPacketStream & __thiscall osc::OutboundPacketStream::operator<<(char const *)" (??6OutboundPacketStream@osc@@QAEAAV01@PBD@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: class osc::OutboundPacketStream & __thiscall osc::OutboundPacketStream::operator<<(float)" (??6OutboundPacketStream@osc@@QAEAAV01@M@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: class osc::OutboundPacketStream & __thiscall osc::OutboundPacketStream::operator<<(long)" (??6OutboundPacketStream@osc@@QAEAAV01@J@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: class osc::OutboundPacketStream & __thiscall osc::OutboundPacketStream::operator<<(struct osc::BeginMessage const &)" (??6OutboundPacketStream@osc@@QAEAAV01@ABUBeginMessage@1@@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: __thiscall osc::OutboundPacketStream::~OutboundPacketStream(void)" (??1OutboundPacketStream@osc@@QAE@XZ)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: void __thiscall UdpSocket::Send(char const *,int)" (?Send@UdpSocket@@QAEXPBDH@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: char const * __thiscall osc::OutboundPacketStream::Data(void)const " (?Data@OutboundPacketStream@osc@@QBEPBDXZ)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: unsigned int __thiscall osc::OutboundPacketStream::Size(void)const " (?Size@OutboundPacketStream@osc@@QBEIXZ)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: class osc::OutboundPacketStream & __thiscall osc::OutboundPacketStream::operator<<(struct osc::BundleTerminator const &)" (??6OutboundPacketStream@osc@@QAEAAV01@ABUBundleTerminator@1@@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "struct osc::BundleTerminator osc::EndBundle" (?EndBundle@osc@@3UBundleTerminator@1@A)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: class osc::OutboundPacketStream & __thiscall osc::OutboundPacketStream::operator<<(struct osc::BundleInitiator const &)" (??6OutboundPacketStream@osc@@QAEAAV01@ABUBundleInitiator@1@@Z)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "struct osc::BundleInitiator osc::BeginBundleImmediate" (?BeginBundleImmediate@osc@@3UBundleInitiator@1@A)
+     1>ofxOscSender.obj : error LNK2001: unresolved external symbol "public: __thiscall osc::OutboundPacketStream::OutboundPacketStream(char *,unsigned long)" (??0OutboundPacketStream@osc@@QAE@PADK@Z)
+     1>bin\jugglinTracker02.exe : fatal error LNK1120: 37 unresolved externals
+     1>Done Building Project "C:\cinder\ofX\0.062\apps\myApps\ofxtracker02\kinectExample.vcxproj" (build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:01:23.50
+Time Elapsed 00:00:14.96
